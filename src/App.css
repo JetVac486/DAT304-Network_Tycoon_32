@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Agency FB';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html { 
+  background: url('https://wallpaperaccess.com/full/6752819.jpg') no-repeat center center fixed; ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+/* Kilder: 
+Fultdekkende bilde - https://css-tricks.com/perfect-full-page-background-image/
+Bilde - https://wallpaperaccess.com/network-technology
+*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
+  height: 100%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

@@ -1,0 +1,46 @@
+html {
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+/*^^ Kilde: https://css-tricks.com/perfect-full-page-background-image ^^/*/
+
+.home-page {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-page > h1 {
+    color: #fff;
+    font-size: 120px;
+    margin-top: -100px;
+}
+
+.home-page > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.home-btns {
+    margin-top: 32px;
+}
+
+.home-btns .btn {
+    margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+    .home-page > h1 {
+        font-size: 120px;
+        margin-top: -150px;
+    }
+
+    .home-page > p {
+        text-align: center;
+    }
+}
