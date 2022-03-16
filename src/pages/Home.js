@@ -12,7 +12,7 @@ function Home() {
             <div className='home-btns'>
                 <switch>
                 <Link to='/play'>
-                        <Button className='play-btn' buttonStyle='btn--outline' buttonSize='btn--large' >START PLAYING</Button>
+                        <Button onClick={event =>  window.location.href='/play'} buttonStyle='btn--outline' buttonSize='btn--large' >START PLAYING</Button>
                     </Link>
                 </switch>
             </div>

@@ -7,18 +7,17 @@
     font-size: 2rem;
     position: sticky;
     top: 0;
- 
     }
 
-    .navbar-container {
+.navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     max-width: 1500px;
-    }
+}
 
-    .navbar-logo {
+.navbar-logo {
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -30,14 +29,14 @@
     object-fit: contain;
     height: fit-content;
     margin: 16px;
-    }
+}
 
-    .fa-typo3 {
+.fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-    }
+}
 
-    .nav-menu {
+.nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -46,44 +45,44 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
-    }
+}
 
-    .nav-item {
+.nav-item {
     height: 80px;
-    }
+}
 
-    .nav-links {
+.nav-links {
     color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    }
+}
 
-    .nav-links:hover {
+.nav-links:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
-    }
+}
 
-    .fa-bars {
+.fa-bars {
     color: #fff;
-    }
+}
 
-    .nav-links-mobile {
+.nav-links-mobile {
     display: none;
-    }
+}
 
-    .menu-icon {
+.menu-icon {
     display: none;
-    }
+}
 
 
-    .spaced-logo{
+.spaced-logo{
         margin: 16px;
-    }
+}
 
-    @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;
     }
