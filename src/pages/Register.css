@@ -17,11 +17,11 @@ html {
     align-items: center;
 }
 
-.login-box {
+.register-box {
     margin-top: 40px;
     background-color: transparent;
     min-width: 440px;
-    min-height: 550px;
+    min-height: 560px;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 20px;
@@ -33,7 +33,7 @@ html {
     color: white;
     text-align: center;
     margin: 30px 0px 40px 0px;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .name,.email,.password {
@@ -57,7 +57,7 @@ html {
     color: red;
 }
 
-.login {
+.register {
     display: flex;
     text-transform: uppercase;
     font-size: 20px;
@@ -88,14 +88,12 @@ button:active {
 
 /*Kilde: https://www.youtube.com/watch?v=WvRwiE9IkFg&t=1s */
 
-
-.login-btn2{
+.login-btn {
+    margin-top: 150px;
     font-size: 30px;
 }
 
-.welcome-msg {
-    margin-top: 250px;
-    min-width: 300px;
-    color: white;
-    font-size: 50px;
+.register-btn {
+    margin-top: 40px;
+    font-size: 30px;
 }

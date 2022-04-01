@@ -1,0 +1,40 @@
+Kilder brukt i prosjekt koden:
+
+1. Nettside grunnlag
+Kilde - https://www.youtube.com/watch?v=I2UBjN5ER4s&t=4210s&ab_channel=BrianDesign
+Kilde - https://github.com/briancodex/react-website-v1/tree/starter
+
+2. Bakgrunns-Bilde
+Kilde - https://wallpaperaccess.com/network-technology
+
+3. Register side
+Kilde - https://www.youtube.com/watch?v=WvRwiE9IkFg&t=1s
+Kilde - https://www.youtube.com/watch?v=KGFG-yQD7Dw&ab_channel=BrianDesign
+
+4. Login side 
+Kilde - https://www.youtube.com/watch?v=91qEdc6dSUs&t=1250s&ab_channel=TylerPotts
+
+5. React Icons
+Kilde - https://www.freecodecamp.org/news/how-to-use-react-icons/
+Kilde - https://react-icons.github.io/react-icons/icons?name=fa
+
+6. Button onClick redirect to url
+Kilde - https://stackoverflow.com/questions/50644976/react-button-onclick-redirect-page
+
+7. Cover entire background with image
+Kilde - https://css-tricks.com/perfect-full-page-background-image
+
+8. Linear gradient fargekombinasjon
+Kilde - https://cssgradient.io/
+
+9. Diverse css oppsøkninger 
+Kilde - https://www.w3schools.com/css/
+
+10. Auto-complete code and write faster
+Kilde - https://www.youtube.com/watch?v=ph65TPiNmKo&ab_channel=BrianDesign
+
+11. Not equal opperator
+Kilde - https://techfunda.com/howto/729/not-equal-operator
+
+
+

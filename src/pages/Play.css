@@ -6,7 +6,77 @@ html {
 /*^^ Kilde: https://css-tricks.com/perfect-full-page-background-image ^^/*/
 
 .play {
-    color: black;
-    font-size: 120px;
+    color: white;
+    font-size: 40px;
+}
+
+.shop-box {
+    height: 90vh;
+    width: 30%;
+    background: transparent;
+    float:left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.shop-menu-box {
+    height: 25%;
+    width: 100%;
+    background: transparent;
+    float:left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: auto;
     text-align: center;
+    padding-top: 20px;
+}
+
+.shop-content-box {
+    height: 75%;
+    width: 100%;
+    background: transparent;
+    float:left;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.system-box {
+    height: 63vh;
+    width: 70%;
+    background: transparent;
+    float:left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.cmd-box {
+    height: 28vh;
+    width: 70%;
+    background: transparent;
+    float:left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.btn1 {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-out;
+}
+
+.btn2 {
+    padding: 8px 20px;
+    padding-top: 0px;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.btn2:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
 }

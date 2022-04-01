@@ -20,4 +20,6 @@ function Home() {
     );
 }
 
+ /* Kilde: https://stackoverflow.com/questions/50644976/react-button-onclick-redirect-page */
+
 export default Home;
