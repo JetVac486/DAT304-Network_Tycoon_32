@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Play from './pages/Play';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import LoginForm from './Components/LoginForm';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
             <Route exact path='/'element={<Home/>} />
             <Route path='/play' element={<Play/>} />
             <Route path='/register' element={<Register/>} />
-            <Route path='/login' element={<Login/>} />
+            <Route path='/login' element={<LoginForm/>} />
           </Routes>
       </Router>
   );

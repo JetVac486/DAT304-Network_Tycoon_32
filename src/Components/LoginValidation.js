@@ -7,14 +7,14 @@ const LoginValidation = (values) => {
     if(values.name == ""){
         errors.name='Please enter a name.'
     }
-    if(!/\S+@\S+\.\S+/.test(values.email)){
-        errors.email="Email is invalid."
+    if(values.email == ""){
+        errors.email="Please enter an email."
     }
-    else if(values.email !== "admin@admin.com"){
-        errors.email='Email does not match!'
+    else if(!/\S+@\S+\.\S+/.test(values.email)){
+        errors.email="Email is invalid!"
     }
-    if(values.password !== "admin123"){
-        errors.password='Password does not match!'
+    if(values.password == ""){
+        errors.password='Please enter a password.'
     }    
 
     return errors;

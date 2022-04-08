@@ -57,6 +57,13 @@ html {
     color: red;
 }
 
+.combination-error {
+    color: red;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    font-size: 25px;
+}
+
 .login {
     display: flex;
     text-transform: uppercase;

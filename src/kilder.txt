@@ -36,5 +36,28 @@ Kilde - https://www.youtube.com/watch?v=ph65TPiNmKo&ab_channel=BrianDesign
 11. Not equal opperator
 Kilde - https://techfunda.com/howto/729/not-equal-operator
 
+12. Register user info into mysql database and check for existing users on login
+Kilde - https://www.youtube.com/watch?v=W-sZo6Gtx_E&t=503s&ab_channel=PedroTech 
+Kilde - https://www.youtube.com/watch?v=jzBgZjOJJnY&ab_channel=CodingwithKevin
+Kilde - https://www.youtube.com/watch?v=Uh2JCSUjA_E&t=536s&ab_channel=CodingwithKevin
+Kilde - https://www.youtube.com/watch?v=rK6oTTbVbcY&ab_channel=CodingwithKevin
+
+13. Disallow empty values for a column in MySQL
+Kilde - https://poopcode.com/disallow-empty-values-for-a-column-in-mysql/
+
+14. res.send() error (databasen krasjet pga flere res.send() i samme funksjon/kall.)
+Kilde - https://stackoverflow.com/questions/7042340/error-cant-set-headers-after-they-are-sent-to-the-client
+
+Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
+Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
+
+Ekstra div kilder: 
+https://codeshack.io/basic-login-system-nodejs-express-mysql/
+https://www.youtube.com/watch?v=46vKqPlTW2w&ab_channel=PedroTech
+https://www.youtube.com/watch?v=ZMDbhYOLKF4&ab_channel=PedroTech
+https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech
+https://www.codegrepper.com/code-examples/javascript/app.listen%28PORT%2C%28%29+%3D%3E+console.log%28%27Server+running+on+port+%24%7BPORT%7D%27%29%29%3B+not+working
+https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
+
 
 

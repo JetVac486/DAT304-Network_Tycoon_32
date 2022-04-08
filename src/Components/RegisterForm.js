@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import setFormIsRegistered from './Form';
 import RegisterValidation from './RegisterValidation';
+import Axios from 'axios';
+
 
 const RegisterForm = ({signupForm}) => {
 
@@ -12,6 +14,23 @@ const RegisterForm = ({signupForm}) => {
 
     const [errors, setErrors] = useState({});
     const [inputIsCorrect, setInputIsCorrect] = useState(false);
+
+    const register = (e) => {
+        e.preventDefault();
+        setErrors(RegisterValidation(values));
+        Axios.post('http://localhost:3001/register', {
+            username: values.name, 
+            email: values.email, 
+            password: values.password
+        })
+        .then((response) => {
+            console.log(response);
+            setInputIsCorrect(true);
+            setFormIsRegistered(true);   
+        });
+        console.log("User created!")
+    }
+
 
     const HandleChange = (event) =>{
         setValues({
@@ -25,8 +44,6 @@ const RegisterForm = ({signupForm}) => {
         setErrors(RegisterValidation(values));
         setInputIsCorrect(true);
         setFormIsRegistered(true);
-        var sql ='INSERT INTO Users (Username, Email, Password) VALUES (?,?,?)'
-        var params =[values.name, values.email, values.password]
     };
 
 
@@ -60,7 +77,7 @@ const RegisterForm = ({signupForm}) => {
                         {errors.password && <p className='error'>{errors.password}</p>}
                     </div>
                     <div>
-                        <button className='register register-btn' onClick={HandleRegister}>Register</button>
+                        <button className='register register-btn' onClick={register}>Register</button>
                     </div>
                 </form>
             </div>
@@ -69,3 +86,9 @@ const RegisterForm = ({signupForm}) => {
 }
 
 export default RegisterForm;
+
+/*
+required  pattern="[A-Za-z]{1, 9}"
+required pattern="[/^[^\s@]+@[^\s@]+\.[^\s@]+$/]{5, 20}"
+required pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d][A-Za-z\d!@#$%^&*()_+]{7,19}$"
+*/
