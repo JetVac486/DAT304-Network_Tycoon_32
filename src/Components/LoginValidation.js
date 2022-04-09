@@ -1,5 +1,3 @@
-import adminUser from "../pages/Login";
-
 const LoginValidation = (values) => {
     
     let errors={};

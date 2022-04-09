@@ -63,7 +63,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' onClick={event =>  window.location.href='/register'}>SIGN IN</Button>}
+                    {button && <Button buttonStyle='btn--outline' onClick={event =>  window.location.href='/login'}>JOIN NOW</Button>}
                 </div>
             </nav>
         </>

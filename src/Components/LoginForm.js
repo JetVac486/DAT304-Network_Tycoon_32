@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import LoginValidation from './LoginValidation';
 import Axios from 'axios';
-import '../pages/Login.css';
+import './Login.css';
 
 function LoginForm({Login}) {
 
@@ -73,15 +73,17 @@ function LoginForm({Login}) {
 
                             </div>
                             <div>
-                                <button className="login login-btn" onClick={login} >Login</button>
+                                <h2 className='combination-error'>{loginStatus}</h2>
+                                <button className="login login-btn fixed-pos" onClick={login} >Login</button>
+                                <a className='link' href="/register">Dont have an account?</a>
                             </div>
                         </form>
-                        <h2 className='combination-error'>{loginStatus}</h2>
                     </div>
                 </div>
             ) : (
                 <div className="welcome-msg">
                     <h2 className='title'>Welcome {loginStatus}</h2>
+                    <button className='login login-btn2' onClick={event =>  window.location.href='/play'}>START PLAYING</button>
                     <button className='login login-btn2' onClick={Logout}>Logout</button>
                 </div>
             )}
@@ -90,5 +92,3 @@ function LoginForm({Login}) {
 }
 
 export default LoginForm;
-
-// <button className="login login-btn" onClick={HandleLogin} >test</button>

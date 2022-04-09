@@ -18,7 +18,7 @@ html {
 }
 
 .login-box {
-    margin-top: 40px;
+    margin-top: 10px;
     background-color: transparent;
     min-width: 440px;
     min-height: 550px;
@@ -43,7 +43,7 @@ html {
 }
 
 .password {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .input {
@@ -60,7 +60,7 @@ html {
 .combination-error {
     color: red;
     text-align: center;
-    margin: 20px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
     font-size: 25px;
 }
 
@@ -95,9 +95,13 @@ button:active {
 
 /*Kilde: https://www.youtube.com/watch?v=WvRwiE9IkFg&t=1s */
 
+.login-btn{
+    font-size: 30px;
+}
 
 .login-btn2{
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .welcome-msg {
@@ -105,4 +109,13 @@ button:active {
     min-width: 300px;
     color: white;
     font-size: 50px;
+}
+
+.link {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 }
