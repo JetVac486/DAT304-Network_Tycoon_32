@@ -2,22 +2,25 @@ const RegisterValidation = (values) => {
     
     let errors={};
     
-    if(!values.name){
-        errors.name='Name is required.'
+    if(values.name == ""){
+        errors.name='Please enter a name.'
     }
-    if(!values.email){
-        errors.email='Email is required.'
+    else if(!/^(?=.*?[A-Z]).{2,4}$/.test(values.name)){
+        errors.name='name is not valid'
     }
-    else if(!/\S+@\S+\.\S+/.test(values.email)){
-        errors.email="Email is invalid."
+
+    if(values.email == ""){
+        errors.email="Please enter an email."
     }
-    if(!values.password){
-        errors.password='Password is required.'
+    else if(!/^\w{3,6}@\w{3,6}\.\w{2,3}$/.test(values.email)){
+        errors.email="Email is invalid!"
     }
-    else if(values.password.length < 5){
-        errors.password="Password must be more than five characters."
+    if(values.password == ""){
+        errors.password='Please enter a password.'
     }
-    
+    else if(!/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{5,12}$/.test(values.password)){
+        errors.password="Password is invalid!"
+    }
 
     return errors;
 };

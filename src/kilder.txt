@@ -48,6 +48,15 @@ Kilde - https://poopcode.com/disallow-empty-values-for-a-column-in-mysql/
 14. res.send() error (databasen krasjet pga flere res.send() i samme funksjon/kall.)
 Kilde - https://stackoverflow.com/questions/7042340/error-cant-set-headers-after-they-are-sent-to-the-client
 
+15. javascript regex username validation
+Kilde - https://stackoverflow.com/questions/9628879/javascript-regex-username-validation
+
+16. Regex for password must contain 5-12 characters, at least one number and both lower and uppercase letters and special characters
+Kile - https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
+
+17. JavaScript Regular Expression Visualizer
+Kilde - https://jex.im/regulex/#!flags=&re=%5E(%3F%3D.*%3F%5BA-Z%5D).%7B5%2C12%7D%24
+
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
 Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
 

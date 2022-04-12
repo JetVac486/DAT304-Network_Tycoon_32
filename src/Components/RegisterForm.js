@@ -94,7 +94,7 @@ export default RegisterForm;
 /*
 required  pattern="[A-Za-z]{1, 9}"
 required pattern="[/^[^\s@]+@[^\s@]+\.[^\s@]+$/]{5, 20}"
-required pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d][A-Za-z\d!@#$%^&*()_+]{7,19}$"
+required pattern="/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d][A-Za-z\d!@#$%^&*()_+]{7,19}$/"
 
 const HandleRegister = (event) => {
         event.preventDefault();
