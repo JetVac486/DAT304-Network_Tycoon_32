@@ -1,0 +1,77 @@
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:white;
+}
+
+.wrapper{
+    margin: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 0.2rem;
+    min-width: 28rem;
+    display: flex;
+}
+
+.card_img{
+    width: 14rem;
+    height: 11rem;
+    object-fit:fit;
+    height: 100%;
+}
+
+.card_body{
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+.card_title{
+    line-height: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.card:description{
+    line-height: 1.2rem;
+}
+
+.card_price{
+    font-size: 1.4rem;
+    margin-top: 0.6rem; 
+}
+
+.card_price::before{
+    content:"$";
+    font-size: 1rem;    
+    position: relative;
+    top: -0.3rem;
+    padding-right: 0.1rem;
+}
+
+.card_btn{
+    border: none;
+    border-top: 1px solid gray;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card_btn:hover{
+    color:aqua;
+}
+
+

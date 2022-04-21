@@ -2,6 +2,7 @@ html {
     background-size: cover;
     height: 100%;
     overflow: hidden;
+    
 }
 /*^^ Kilde: https://css-tricks.com/perfect-full-page-background-image ^^/*/
 
@@ -33,7 +34,7 @@ html {
 }
 
 .shop-content-box {
-    height: 75%;
+    height: 65%;
     width: 100%;
     background: transparent;
     float:left;
@@ -41,25 +42,42 @@ html {
     overflow: auto;
 }
 
+.shop-checkout-box {
+    height: 10%;
+    width: 100%;
+    background: grey;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 .system-box {
     height: 63vh;
     width: 70%;
     background: transparent;
-    float:left;
     border: 1px solid black;
     box-sizing: border-box;
-    overflow: auto;
+    overflow:hidden;
+    white-space: nowrap;
+    font-size: 30px;
 }
 
 .cmd-box {
     height: 28vh;
     width: 70%;
     background: transparent;
+    color: white;
     float:left;
     border: 1px solid black;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word; 
 }
+
+
 
 .btn1 {
     background-color: transparent;
@@ -80,3 +98,119 @@ html {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
 }
+
+.line{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: white; 
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey; 
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    background: transparent;
+}
+
+.stopid{
+    width:fit-content;
+}
+
+.right {
+    margin-left: 3rem;
+}
+
+.rightish {
+margin-left: 40rem;
+text-align: end;
+}
+
+.rightest {
+    margin-left: 5rem;
+    text-align: end;
+}
+
+.stuff-test {
+    display: inline-block;
+}
+
+.righter {
+    margin-left: 50rem;
+    text-align: end;
+}
+
+.right-end {
+    text-align: end;
+}
+
+.security-list {
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 0px 50px 0px 50px;
+}
+
+.small-size {
+    font-size: 20px;
+}
+
+.components {
+    overflow-y: auto;
+}
+
+.buy_btn {
+    text-align: end;
+    margin-left: 14rem;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+    padding: 8px 20px;
+    font-size: 24px;
+    position: relative;
+}
+
+.btn-medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+.blob {
+    width: 100%;
+    height: 27%;
+    background-color: grey;
+}
+

@@ -48,14 +48,52 @@ Kilde - https://poopcode.com/disallow-empty-values-for-a-column-in-mysql/
 14. res.send() error (databasen krasjet pga flere res.send() i samme funksjon/kall.)
 Kilde - https://stackoverflow.com/questions/7042340/error-cant-set-headers-after-they-are-sent-to-the-client
 
-15. javascript regex username validation
+15. bcrypt password hashing
+Kilde - https://www.youtube.com/watch?v=sTHWNPVNvm8&t=424s&ab_channel=PedroTech
+
+16. javascript regex username validation
 Kilde - https://stackoverflow.com/questions/9628879/javascript-regex-username-validation
 
-16. Regex for password must contain 5-12 characters, at least one number and both lower and uppercase letters and special characters
+17. Regex for password must contain 5-12 characters, at least one number and both lower and uppercase letters and special characters
 Kile - https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
 
-17. JavaScript Regular Expression Visualizer
+18. JavaScript Regular Expression Visualizer
 Kilde - https://jex.im/regulex/#!flags=&re=%5E(%3F%3D.*%3F%5BA-Z%5D).%7B5%2C12%7D%24
+
+19. Hide, Show and Toggle visability of elements
+Kilde - https://www.youtube.com/watch?v=UGSN6o29fPo&ab_channel=CodeStepByStep
+Kilde - https://www.codegrepper.com/code-examples/javascript/hide+and+show+on+button+click+in+react+js+functional+component
+
+20. Shop component til spillet
+Kilde - https://www.youtube.com/watch?v=3_gakM-y7hE&ab_channel=AngelaDelise
+
+21. Bilder Shop component
+Kilde - https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453039_sd.jpg;maxHeight=640;maxWidth=550
+Kilde - https://tipsmake.com/data/thumbs/basic-information-about-network-equipment-thumb-NTW2CSBzt.jpg
+Kilde - https://603168-1953132-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/cisco_switch.jpg
+
+22. Horizontal Line 
+Kilde - https://www.w3schools.com/tags/tag_hr.asp
+
+23. Stop Propagation
+Kilde - https://stackoverflow.com/questions/63411940/how-to-create-two-onclick-events-on-a-clickable-cards-in-react
+
+24. Customize scrollbar
+Kile - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+Kilde - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2
+
+25. <bdi> tag (text tags, som kan erstatte <p>, <h>, osv..)
+Kilde - https://www.w3schools.com/tags/ref_byfunc.asp
+
+26. Hente values fra useState's i en fil over til en annen. 
+Kilde - https://stackoverflow.com/questions/63217964/how-to-access-state-in-function-which-is-in-another-file
+
+27. Timer that adds 10$ every 15 seconds
+Kilde - https://stackoverflow.com/questions/65049812/how-to-call-a-function-every-minute-in-a-react-component
+
+28. Terminal 
+Kilde - https://www.youtube.com/watch?v=HVVNR96GhPk&ab_channel=NateDotJs
+Kilde - https://github.com/thisprojects/console-tutorial
 
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
 Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
@@ -67,6 +105,7 @@ https://www.youtube.com/watch?v=ZMDbhYOLKF4&ab_channel=PedroTech
 https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech
 https://www.codegrepper.com/code-examples/javascript/app.listen%28PORT%2C%28%29+%3D%3E+console.log%28%27Server+running+on+port+%24%7BPORT%7D%27%29%29%3B+not+working
 https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
+https://css-tricks.com/when-a-line-doesnt-break/
 
 
 
