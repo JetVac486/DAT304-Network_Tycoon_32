@@ -1,0 +1,17 @@
+
+.terminalcont{
+box-sizing: border-box; 
+background-color: black;
+overflow:auto;
+
+}
+.terminalcont h2{
+color: white;
+animation:
+ fade-animation 1s ease-in-out 0s forwards,
+ slideDown-animation 1s ease-in-out 1s forwards;
+}
+input[type=text] {
+  background-color: black;
+  color: white;
+}
