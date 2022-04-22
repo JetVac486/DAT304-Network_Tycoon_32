@@ -2,8 +2,15 @@ import {useState} from "react";
 
 const commands = {
     help: "help entry",
-    quit: "Good bye"
+    quit: "Good bye", 
+    inventory: "this finctions list the routers you have purchased. updated ", 
+    hi: "hello there",
+    router: routerconfigfunc()
 };
+
+function routerconfigfunc(){
+    return "it ran"
+}
 
 const UseOnEnter = () => {
     const [consoleOutput, updateConsoleOutput] = useState([]);

@@ -3,24 +3,25 @@ import './Card.css';
 import useCustomHook from './customHook';
 import EquipmentCards from './EquipmentCards';
 
+const data = [];
+
 function Card(props) {
+
+    var sum = 0;
 
     const { money, setMoney } =useCustomHook();
     const [total, setTotal] = useState("");
-
-    useEffect(() => {
-        console.log("money = ", money);
-        console.log("total = ", total);
-    }, [money]);
 
     function handleCart(event) {
         event.stopPropagation();
         if (money > props.price) {
             console.log("Successfully Bought!");
-            setMoney(money - props.price)
-            props.price.forEach(element => {
-                setTotal(total = props.price)
-            });
+            data.push(props.price)
+            data.map(function (item) {
+                sum += parseFloat(item,10);
+            })
+            console.log(data)
+            console.log(sum)
         }
         else {
             console.log("Too expensive!"); 

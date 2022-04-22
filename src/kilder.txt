@@ -95,6 +95,21 @@ Kilde - https://stackoverflow.com/questions/65049812/how-to-call-a-function-ever
 Kilde - https://www.youtube.com/watch?v=HVVNR96GhPk&ab_channel=NateDotJs
 Kilde - https://github.com/thisprojects/console-tutorial
 
+29. CSS bottom Property (top er helt lik bare med top isteden for bottom)
+Kilde - https://www.w3schools.com/cssref/pr_pos_bottom.asp
+
+30. Add item to array
+Kilde - https://www.w3schools.com/jsref/jsref_push.asp
+
+31. Reading array elements with map instead of forEach in reactjs
+Kilde - https://stackoverflow.com/questions/57397855/reading-array-elements-with-foreach-in-reactjs
+
+32. Sum of array elements returns NaN
+Kilde - https://stackoverflow.com/questions/25994548/sum-of-array-elements-returns-nan
+
+33. Cisco IOS and CLI (cisco network & router setup)
+Kilde - http://danscourses.com/cisco-ios-and-cli/
+
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
 Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
 

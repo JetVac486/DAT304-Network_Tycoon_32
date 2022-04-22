@@ -4,11 +4,13 @@ import React, { useState, useEffect } from 'react';
 import EquipmentCards from '../Components/EquipmentCards';
 import useCustomHook from '../Components/customHook';
 import Console from '../Components/Console';
-
+import sum from '../Components/Card';
 
 function Play() {
 
     const {money, setMoney} =useCustomHook();
+
+    var total = sum;
 
     const [show,setShow] = useState(false)
     const [show2,setShow2] = useState(false)
@@ -51,7 +53,7 @@ function Play() {
         setShow4(false)
         
     };
-
+/*
     const MINUTE_MS = 15000;
 
     useEffect(() => {
@@ -62,7 +64,7 @@ function Play() {
 
     return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
     }, [])
-
+*/
     return (
         <div className='play'>
             <div className="shop-box">
@@ -108,8 +110,8 @@ function Play() {
                 </div>
                 <div className='shop-checkout-box'>
                     <div className='content'>
-                        <p className='stuff-test'>Total: {money}$</p>
-                        <button className='buy_btn btn-outline btn-medium'>BUY</button>
+                        <p className='stuff-test'>Total: {total}$</p>
+                        <button className='buy_btn btn-outline btn-medium' onClick={total}>BUY</button>
                     </div>
                 </div>
             </div>
