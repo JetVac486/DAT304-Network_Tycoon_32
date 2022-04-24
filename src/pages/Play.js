@@ -5,12 +5,15 @@ import EquipmentCards from '../Components/EquipmentCards';
 import useCustomHook from '../Components/customHook';
 import Console from '../Components/Console';
 import sum from '../Components/Card';
+import Responsive from '../Components/Slider';
 
 function Play() {
+    
+    function total () {
+        console.log(sum)
+    }
 
     const {money, setMoney} =useCustomHook();
-
-    var total = sum;
 
     const [show,setShow] = useState(false)
     const [show2,setShow2] = useState(false)
@@ -86,7 +89,6 @@ function Play() {
                     }
                 </div>
                 <div className="shop-content-box">
-                    <button className='btn1 btn2'>shop</button>
                     {
                         show3?<div>
                             <EquipmentCards/>
@@ -111,7 +113,7 @@ function Play() {
                 <div className='shop-checkout-box'>
                     <div className='content'>
                         <p className='stuff-test'>Total: {total}$</p>
-                        <button className='buy_btn btn-outline btn-medium' onClick={total}>BUY</button>
+                        <button className='buy_btn btn-outline btn-medium' onClick={total} >BUY</button>
                     </div>
                 </div>
             </div>
@@ -123,20 +125,15 @@ function Play() {
                     <hr className='line'/> 
                 </div>
                 <div className='components-list'>
-                    <p className='right'>Components</p>
-                    <div className='components'>
-                    </div>
+                    <Responsive/>
                 </div>
                 <div className='Services-list'>
-                    <p className='right'>Services</p>
+                    <Responsive/>
                 </div>
                 <div className='Security-list'>
                     <div className='column'>
                         <p>Security</p>
-                        <h3 className='small-size'>Growth</h3>
-                        <h3 className='small-size'>Income</h3>
-                        <h3 className='small-size'>Stability</h3>
-                        <h3 className='small-size'>Trust</h3>
+                        
                     </div>
                     <div className='column right-end'>
                         <p>Business rates</p>

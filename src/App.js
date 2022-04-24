@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Play from './pages/Play';
 import LoginForm from './Components/LoginForm';
 import RegisterForm from './Components/RegisterForm';
+import Responsive from './Components/Slider';
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
             <Route path='/play' element={<Play/>} />
             <Route path='/register' element={<RegisterForm/>} />
             <Route path='/login' element={<LoginForm/>} />
+            <Route path='/test' element={<Responsive/>} />
           </Routes>
       </Router>
   );

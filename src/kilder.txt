@@ -14,7 +14,7 @@ Kilde - https://www.youtube.com/watch?v=KGFG-yQD7Dw&ab_channel=BrianDesign
 4. Login side 
 Kilde - https://www.youtube.com/watch?v=91qEdc6dSUs&t=1250s&ab_channel=TylerPotts
 
-5. React Icons
+5. React Icons (FaPhoenixSquadron)
 Kilde - https://www.freecodecamp.org/news/how-to-use-react-icons/
 Kilde - https://react-icons.github.io/react-icons/icons?name=fa
 
@@ -107,7 +107,28 @@ Kilde - https://stackoverflow.com/questions/57397855/reading-array-elements-with
 32. Sum of array elements returns NaN
 Kilde - https://stackoverflow.com/questions/25994548/sum-of-array-elements-returns-nan
 
-33. Cisco IOS and CLI (cisco network & router setup)
+33. React Slider (for components & services slideshow)
+Kilde - https://www.youtube.com/watch?v=lgBsm42Fs4k&t=50s&ab_channel=ShravanMeena
+Kilde - https://react-slick.neostack.com/docs/example/multiple-items
+Kilde - https://github.com/kenwheeler/slick/
+
+34. React Slider images
+Kilder - https://media.4rgos.it/i/Argos/5728882_R_Z001A?w=750&h=440&qlt=70
+kilder - https://newattitude.no/wp-content/uploads/2017/06/network-cables-494645_1280_web.jpg
+Kilder - https://img.prisguiden.no/2971/2971265/original.1024x422!m.jpg
+Kilder - https://m.media-amazon.com/images/I/41KxiEtu+5S._AC_SL1200_.jpg
+
+35. React Icons (FaChevronLeft, FaChevronRight)
+Kilder - https://react-icons.github.io/react-icons/icons?name=fa
+
+36. Custom Arrows React Slider
+Kilde - https://react-slick.neostack.com/docs/example/custom-arrows
+Kilde - https://www.youtube.com/watch?v=Vh0uow-zpwk&ab_channel=CyberCodeStar
+
+37. !important for å overskrive css/design/kode
+Kilde - https://stackoverflow.com/questions/13117126/how-to-overwrite-css-style
+
+38. Cisco IOS and CLI (cisco network & router setup)
 Kilde - http://danscourses.com/cisco-ios-and-cli/
 
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte

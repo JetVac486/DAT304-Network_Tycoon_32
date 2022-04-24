@@ -7,26 +7,29 @@ const data = [];
 
 function Card(props) {
 
-    var sum = 0;
-
     const { money, setMoney } =useCustomHook();
-    const [total, setTotal] = useState("");
+
+    var sum = 0;
 
     function handleCart(event) {
         event.stopPropagation();
         if (money > props.price) {
             console.log("Successfully Bought!");
             data.push(props.price)
-            data.map(function (item) {
+            data.map(function cart (item) {
                 sum += parseFloat(item,10);
+                return sum;
             })
             console.log(data)
             console.log(sum)
+            
         }
         else {
             console.log("Too expensive!"); 
         }
     }
+
+
 
     return (
         <div className='card'>

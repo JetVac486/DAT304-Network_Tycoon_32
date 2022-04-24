@@ -1,0 +1,59 @@
+.testings {
+    margin-left: 60px;
+    width: 90%;
+}
+
+.cards_body {
+    display: grid;
+    text-align: center;
+
+}
+
+.box {
+    border: 1px solid white;
+}
+
+.slick-slide img {
+    display: block;
+    width: inherit;
+    height: 100px;
+}
+
+.cards {
+    width: 40px;
+    height:auto;
+}
+
+.txt {
+    font-size: 25px;
+    background-color: black;
+}
+
+.txt2 {
+    font-size: 20px;
+}
+
+.slick-prev {
+    right: -25px;
+    color: white !important; 
+    height:30px !important;
+}
+
+.slick-prev:hover {
+    opacity: 1;
+}
+
+.slick-next {
+    right: -25px;
+    color: white !important; 
+    height:30px !important;
+}
+
+.slick-next:hover {
+    opacity: 1;
+}
+
+/*https://stackoverflow.com/questions/13117126/how-to-overwrite-css-style*/
+
+
+
