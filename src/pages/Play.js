@@ -1,14 +1,11 @@
 import './Play.css';
 import '../Components/console.css';
 import React, { useState, useEffect } from 'react';
-import {EquipmentCards, EnvironmentalCards, Services} from '../Components/EquipmentCards';
-import useCustomHook from '../Components/customHook';
+import {EnvironmentalCards, Services} from '../Components/EquipmentCards';
 import Console from '../Components/Console';
-import Card from '../Components/Card';
 import {Responsive, Service} from '../Components/Slider';
-import {totals} from '../Components/Card';
 import Store from '../Components/store';
-import money from '../Components/Cart';
+
 
 
 function Play() {
