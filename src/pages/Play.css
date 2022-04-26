@@ -34,7 +34,7 @@ html {
 }
 
 .shop-content-box {
-    height: 65%;
+    height: 75%;
     width: 100%;
     background: transparent;
     float:left;
@@ -135,7 +135,7 @@ html {
 }
 
 .rightish {
-margin-left: 40rem;
+margin-left: 34rem;
 text-align: end;
 }
 
@@ -177,7 +177,7 @@ text-align: end;
 
 .buy_btn {
     text-align: end;
-    margin-left: 14rem;
+    margin-left: 10rem;
 }
 
 .btn-outline {
@@ -214,3 +214,6 @@ text-align: end;
     background-color: grey;
 }
 
+.environmental {
+    font-size: 30px;
+}

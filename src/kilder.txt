@@ -128,7 +128,16 @@ Kilde - https://www.youtube.com/watch?v=Vh0uow-zpwk&ab_channel=CyberCodeStar
 37. !important for å overskrive css/design/kode
 Kilde - https://stackoverflow.com/questions/13117126/how-to-overwrite-css-style
 
-38. Cisco IOS and CLI (cisco network & router setup)
+38. Select last element in an array
+Kilde - https://flaviocopes.com/how-to-get-last-item-array-javascript/
+
+39. import/Export values from one file to another
+Kilde - https://bobbyhadz.com/blog/react-import-variable-from-another-file
+
+41. React js Shopping Cart for beginner
+Kilde - https://www.youtube.com/watch?v=B0E2esA5nQo&ab_channel=CodeWithYd
+
+40. Cisco IOS and CLI (cisco network & router setup)
 Kilde - http://danscourses.com/cisco-ios-and-cli/
 
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte

@@ -1,19 +1,19 @@
 import './Play.css';
 import '../Components/console.css';
 import React, { useState, useEffect } from 'react';
-import EquipmentCards from '../Components/EquipmentCards';
+import {EquipmentCards, EnvironmentalCards, Services} from '../Components/EquipmentCards';
 import useCustomHook from '../Components/customHook';
 import Console from '../Components/Console';
-import sum from '../Components/Card';
-import Responsive from '../Components/Slider';
+import Card from '../Components/Card';
+import {Responsive, Service} from '../Components/Slider';
+import {totals} from '../Components/Card';
+import Store from '../Components/store';
+import money from '../Components/Cart';
+
 
 function Play() {
     
-    function total () {
-        console.log(sum)
-    }
-
-    const {money, setMoney} =useCustomHook();
+    var total_data = 14765;
 
     const [show,setShow] = useState(false)
     const [show2,setShow2] = useState(false)
@@ -31,7 +31,7 @@ function Play() {
         setShow(false)
         
     };
-    const visability3 = () => {
+    const visability3 = (event) => {
         setShow3(!show3)
         setShow4(false)
         setShow5(false)
@@ -56,17 +56,19 @@ function Play() {
         setShow4(false)
         
     };
-/*
-    const MINUTE_MS = 15000;
 
-    useEffect(() => {
+/*const MINUTE_MS = 3000;
+
+useEffect(() => {
     const interval = setInterval(() => {
         setMoney(money => money + 10)
         console.log(money)
     }, MINUTE_MS);
 
-    return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
-    }, [])
+
+
+return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
+}, [])
 */
     return (
         <div className='play'>
@@ -91,17 +93,17 @@ function Play() {
                 <div className="shop-content-box">
                     {
                         show3?<div>
-                            <EquipmentCards/>
+                            <Store/>
                         </div>:null
                     }
                     {
-                        show4?<div>
-                            <h1>this is another test!</h1>
+                        show4?<div className='environmental'>
+                            <EnvironmentalCards/>
                         </div>:null
                     }
                     {
                         show5?<div>
-                            <h1>this is a test!</h1>
+                            <Services/>
                         </div>:null
                     }
                     {
@@ -110,25 +112,19 @@ function Play() {
                         </div>:null
                     }
                 </div>
-                <div className='shop-checkout-box'>
-                    <div className='content'>
-                        <p className='stuff-test'>Total: {total}$</p>
-                        <button className='buy_btn btn-outline btn-medium' onClick={total} >BUY</button>
-                    </div>
-                </div>
             </div>
             <div className="system-box">
                 <div className='game-info'>
                     <p className='right stuff-test'>System Info</p>
                     <p className='rightish stuff-test'>??? Mb/s</p>
-                    <p className='rightest stuff-test'>{money}$</p>
+                    <p className='rightest stuff-test'>Total data: {total_data} Mb/s </p>
                     <hr className='line'/> 
                 </div>
                 <div className='components-list'>
                     <Responsive/>
                 </div>
                 <div className='Services-list'>
-                    <Responsive/>
+                    <Service/>
                 </div>
                 <div className='Security-list'>
                     <div className='column'>

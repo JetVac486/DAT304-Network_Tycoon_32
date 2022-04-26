@@ -4,31 +4,30 @@ import useCustomHook from './customHook';
 import EquipmentCards from './EquipmentCards';
 
 const data = [];
+export const totals = [];
 
 function Card(props) {
-
     const { money, setMoney } =useCustomHook();
+    const {oow, setOow} = useState();
 
     var sum = 0;
 
     function handleCart(event) {
         event.stopPropagation();
         if (money > props.price) {
-            console.log("Successfully Bought!");
             data.push(props.price)
+            console.log(data)
             data.map(function cart (item) {
                 sum += parseFloat(item,10);
-                return sum;
-            })
-            console.log(data)
-            console.log(sum)
-            
+                totals.push(sum)
+                console.log(sum)
+                console.log(totals)
+            });
         }
         else {
             console.log("Too expensive!"); 
         }
     }
-
 
 
     return (
@@ -43,5 +42,6 @@ function Card(props) {
         </div>
     )
 }
+
 
 export default Card;
