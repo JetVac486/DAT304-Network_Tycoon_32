@@ -15,6 +15,7 @@ const Cart = () => {
     } = useCart();
 
     const [money, setMoney] = useState(145);
+    //const [pause,setPause] = useState(false);
 
     function total () {
         if (money > cartTotal) {
@@ -26,9 +27,55 @@ const Cart = () => {
         }
     }
 
+    function Incidents () {
+        var maxNumber = 25;
+        var randomNumber = Math.floor((Math.random() * maxNumber) + 1);
+        console.log(randomNumber);
+        if (randomNumber == 1){
+            console.log("You have been hacked!")
+            setMoney(money => money - money)
+        }
+        else if (randomNumber == 4){
+            console.log("A power outage happened!")
+            setMoney(money => money - (money/2))
+            //setPause(true);
+        }
+        else if (randomNumber == 7){
+            console.log("Equipment failure!")
+            setMoney(money => money - (money/4))
+        }
+        else if (randomNumber == 21){
+            console.log("Your internett went down!")
+            setMoney(money => money - (money/2))
+        }
+        else {
+            console.log("bye")
+        }
+        return randomNumber;
+    }
+
+    const MINUTE_MS = 10000;
+    const MINUTE_MS2 = 20000;
+
     useEffect(() => {
         total();
+        const interval = setInterval(() => {
+            setMoney(money => money + 10)
+        }, MINUTE_MS);
+
+        const interval2 = setInterval(() => {
+            Incidents();
+        }, MINUTE_MS2);
+
+        return () => clearInterval(interval, interval2);
     }, [])
+
+    /*
+        if (pause == true) {
+            const timer = setTimeout(interval, 20000);
+            return () => clearTimeout(timer);
+        }
+        */
 
     if(isEmpty) return <h1 className='empty_cart_txt'>Your Cart is Empty</h1>
 

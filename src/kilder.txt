@@ -137,7 +137,25 @@ Kilde - https://bobbyhadz.com/blog/react-import-variable-from-another-file
 41. React js Shopping Cart for beginner
 Kilde - https://www.youtube.com/watch?v=B0E2esA5nQo&ab_channel=CodeWithYd
 
-40. Cisco IOS and CLI (cisco network & router setup)
+42. Generate random numbers 0-24 
+(
+the numbers are used for the insidents that can happen and with 4 incidents out of 25 otuputs, 
+there is more or less a 16% chance for an incident to happen.
+)
+Kilde - https://stackoverflow.com/questions/65953217/how-to-display-one-value-from-many-inputs-randomly-with-react-hooks
+Kilde - https://codesandbox.io/s/silly-hugle-rt6yf?file=/src/App.js:654-690
+Kilde - https://percentagecalculator.net/
+Kilde - https://www.codegrepper.com/code-examples/javascript/generate+random+number+in+react+js
+
+43. More pictures for the card components
+Kilder - https://dustinweb.azureedge.net/content/78142/komplett-10-tumsrack-pro-inline-11.jpg
+Kilder - https://ps-selskapsutleie.no/wp-content/uploads/2021/12/w1200h1200-190.jpg
+Kilder - https://www.hyttetorget.no/content/mma/products/05/593/59384/EU22_2.jpg
+Kilder - https://info.cgcompliance.com/hubfs/cloud.jpg
+Kilder - https://www.plixer.com/wp-content/uploads/2019/01/annam_1-15-19_01.png
+Kilder - https://us.123rf.com/450wm/dizanna/dizanna1911/dizanna191100157/133041040-isp-internet-service-provider-acronym-technology-concept-background.jpg?ver=6
+
+44. Cisco IOS and CLI (cisco network & router setup)
 Kilde - http://danscourses.com/cisco-ios-and-cli/
 
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
@@ -151,6 +169,7 @@ https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech
 https://www.codegrepper.com/code-examples/javascript/app.listen%28PORT%2C%28%29+%3D%3E+console.log%28%27Server+running+on+port+%24%7BPORT%7D%27%29%29%3B+not+working
 https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
 https://css-tricks.com/when-a-line-doesnt-break/
-
+https://www.npmjs.com/package/react-use-cart
+https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks
 
 

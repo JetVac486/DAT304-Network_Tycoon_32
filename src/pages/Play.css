@@ -22,7 +22,7 @@ html {
 }
 
 .shop-menu-box {
-    height: 25%;
+    height: 15%;
     width: 100%;
     background: transparent;
     float:left;
@@ -34,7 +34,7 @@ html {
 }
 
 .shop-content-box {
-    height: 75%;
+    height: 85%;
     width: 100%;
     background: transparent;
     float:left;
@@ -42,13 +42,12 @@ html {
     overflow: auto;
 }
 
-.shop-checkout-box {
+.checkout-cart-box {
     height: 10%;
     width: 100%;
-    background: grey;
     float: left;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .system-box {
@@ -214,6 +213,6 @@ text-align: end;
     background-color: grey;
 }
 
-.environmental {
-    font-size: 30px;
+.centered_sections2 {
+    text-align: center;
 }

@@ -8,20 +8,15 @@ body{
     color:white;
 }
 
-.wrapper{
-    margin: 2rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr;
-    justify-content: center;
-}
-
 .card{
     box-shadow: 0 0 10px 5px gray;
     border-radius: 0.2rem;
-    min-width: 28rem;
+    min-width: 24rem;
     display: flex;
-    margin-bottom: 30px
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .card_img{
@@ -37,6 +32,7 @@ body{
 .card_title{
     line-height: 1.4rem;
     margin-bottom: 0.5rem;
+    font-size: 42px;
 }
 
 .card:description{

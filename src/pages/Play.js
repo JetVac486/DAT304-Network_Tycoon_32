@@ -1,12 +1,9 @@
 import './Play.css';
 import '../Components/console.css';
 import React, { useState, useEffect } from 'react';
-import {EnvironmentalCards, Services} from '../Components/EquipmentCards';
 import Console from '../Components/Console';
 import {Responsive, Service} from '../Components/Slider';
 import Store from '../Components/store';
-
-
 
 function Play() {
     
@@ -14,10 +11,6 @@ function Play() {
 
     const [show,setShow] = useState(false)
     const [show2,setShow2] = useState(false)
-    const [show3,setShow3] = useState(false)
-    const [show4,setShow4] = useState(false)
-    const [show5,setShow5] = useState(false)
-    const [show6,setShow6] = useState(false)
 
     const visability = () => {
         setShow(true)
@@ -28,45 +21,8 @@ function Play() {
         setShow(false)
         
     };
-    const visability3 = (event) => {
-        setShow3(!show3)
-        setShow4(false)
-        setShow5(false)
-        setShow6(false)
-    };
-    const visability4 = () => {
-        setShow4(!show4)
-        setShow3(false)
-        setShow5(false)
-        setShow6(false)
-    };
-    const visability5 = () => {
-        setShow5(!show5)
-        setShow6(false)
-        setShow3(false)
-        setShow4(false)
-    };
-    const visability6 = () => {
-        setShow6(!show6)
-        setShow5(false)
-        setShow3(false)
-        setShow4(false)
-        
-    };
-
-/*const MINUTE_MS = 3000;
-
-useEffect(() => {
-    const interval = setInterval(() => {
-        setMoney(money => money + 10)
-        console.log(money)
-    }, MINUTE_MS);
 
 
-
-return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
-}, [])
-*/
     return (
         <div className='play'>
             <div className="shop-box">
@@ -74,38 +30,16 @@ return () => clearInterval(interval); // This represents the unmount function, i
                     <button className='btn1 btn2' onClick={visability}>Equipment</button>
                     <button className='btn1 btn2' onClick={visability2}>Incidents</button>
                     <hr className='line'/>
-                    {
-                        show?<div>
-                            <button className='btn1 btn2' onClick={visability3}>Network</button>
-                            <button className='btn1 btn2' onClick={visability4}>Environmental</button>
-                        </div>:null
-                    }
-                    {
-                        show2?<div>
-                            <button className='btn1 btn2' onClick={visability5}>Services</button>
-                            <button className='btn1 btn2' onClick={visability6}>Info</button>
-                        </div>:null
-                    }
                 </div>
                 <div className="shop-content-box">
-                    {
-                        show3?<div>
+                {
+                        show?<div>
                             <Store/>
                         </div>:null
                     }
                     {
-                        show4?<div className='environmental'>
-                            <EnvironmentalCards/>
-                        </div>:null
-                    }
-                    {
-                        show5?<div>
-                            <Services/>
-                        </div>:null
-                    }
-                    {
-                        show6?<div>
-                            <h1>this is yet another test!</h1>
+                        show2?<div>
+                            <p className='centered_sections'>Info</p>
                         </div>:null
                     }
                 </div>
