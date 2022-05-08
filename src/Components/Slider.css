@@ -6,17 +6,17 @@
 .cards_body {
     display: grid;
     text-align: center;
-
 }
 
 .box {
     border: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .slick-slide img {
     display: block;
     width: inherit;
-    height: 100px;
+    height: 85px;
 }
 
 .cards {

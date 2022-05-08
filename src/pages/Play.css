@@ -34,7 +34,7 @@ html {
 }
 
 .shop-content-box {
-    height: 85%;
+    height: 100%;
     width: 100%;
     background: transparent;
     float:left;
@@ -92,6 +92,12 @@ html {
     position: relative;
     text-align: center;
 }
+.btn3 {
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    font-size: 35px;
+}
 
 .btn2:hover {
     border-bottom: 4px solid #fff;
@@ -134,7 +140,7 @@ html {
 }
 
 .rightish {
-margin-left: 34rem;
+margin-left: 25rem;
 text-align: end;
 }
 
@@ -215,4 +221,8 @@ text-align: end;
 
 .centered_sections2 {
     text-align: center;
+}
+
+.system_info_page_text_size {
+    font-size: 35px;
 }

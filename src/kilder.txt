@@ -139,8 +139,8 @@ Kilde - https://www.youtube.com/watch?v=B0E2esA5nQo&ab_channel=CodeWithYd
 
 42. Generate random numbers 0-24 
 (
-the numbers are used for the insidents that can happen and with 4 incidents out of 25 otuputs, 
-there is more or less a 16% chance for an incident to happen.
+the numbers are used for the insidents that can happen and with 4 incidents out of 80 otuputs, 
+there is more or less a 5% chance for an incident to happen.
 )
 Kilde - https://stackoverflow.com/questions/65953217/how-to-display-one-value-from-many-inputs-randomly-with-react-hooks
 Kilde - https://codesandbox.io/s/silly-hugle-rt6yf?file=/src/App.js:654-690
@@ -155,7 +155,77 @@ Kilder - https://info.cgcompliance.com/hubfs/cloud.jpg
 Kilder - https://www.plixer.com/wp-content/uploads/2019/01/annam_1-15-19_01.png
 Kilder - https://us.123rf.com/450wm/dizanna/dizanna1911/dizanna191100157/133041040-isp-internet-service-provider-acronym-technology-concept-background.jpg?ver=6
 
-44. Cisco IOS and CLI (cisco network & router setup)
+44. how to enter subgroups for an array that has multiple arrays within.
+Kilde - https://www.codegrepper.com/code-examples/javascript/get+element+of+an+array+inside+another+array
+
+45. Check for a string containing a sertain word.
+Kilde - https://www.codegrepper.com/code-examples/javascript/react+string+contains
+
+46. for i in loop (for (var i = 0; i < 10; i++))
+Kilde - https://stackoverflow.com/questions/45080425/arrays-inside-an-array-javascript
+Kilde - https://www.w3schools.com/js/js_arrays.asp
+
+47. Oppdaterte komponenter i data.js filen (shop componentene) 
+Network equipment:
+{
+    Kilder - https://www.komplett.no/product/1160107/datautstyr/nettverk/routere/tp-link-archer-ax50-router# (Normal Router)
+        Bilde - https://www.komplett.no/img/p/590/1160107.jpg
+    Kilder - https://www.komplett.no/product/1180236/datautstyr/nettverk/routere/netgear-nighthawk-ax8-router# (Good Router)
+        Bilde - https://www.komplett.no/img/p/1200/1180236.jpg
+    Kilder - https://www.komplett.no/product/1205569/datautstyr/nettverk/routere/asus-rog-rapture-gt-axe11000# (Powerfull Router)
+        Bilde - https://www.komplett.no/img/p/1200/1205569.jpg
+    Kilder - https://www.komplett.no/product/846144/datautstyr/nettverk/nettverkskabler/nettverkskabel-cat5e-graa-5m (Normal Cables)
+        Bilde - https://www.komplett.no/img/p/1200/846144.jpg
+    Kilder - https://www.komplett.no/product/1127181/datautstyr/nettverk/nettverkskabler/nettverkskabel-cat6a-graa-15m (Good Cables)
+        Bilde - https://www.komplett.no/img/p/1200/1127181.jpg
+    Kilder - https://www.komplett.no/product/1192723/datautstyr/nettverk/nettverkskabler/supra-catkabel-cat-8-stp-2m?q=cat%208 (Powerfull Cables)
+        Bilde - https://www.komplett.no/img/p/800/1192723.jpg
+    Kilder - https://www.komplett.no/product/821779/datautstyr/nettverk/switch/tp-link-tl-sg108-switch (Normal Switch)
+        Bilde - https://www.komplett.no/img/p/640/821779.jpg
+    Kilder - https://www.komplett.no/product/922978/datautstyr/nettverk/switch/netgear-gs108pe-poe-switch (Good Switch)
+        Bilde - https://www.komplett.no/img/p/1200/922978.jpg
+    Kilder - https://www.komplett.no/product/1191037/datautstyr/nettverk/switch/cbs110-unmanaged-24-port-ge-2x1g-sfp-shared (Powerfull Switch)
+        Bilde - https://www.komplett.no/img/p/1080/1191037.jpg
+    Kilder - https://www.komplett.no/product/853507/datautstyr/nettverk/aksesspunkt/tp-link-cpe210-traadloest-aksesspunkt (Normal Accesspoint)
+        Bilde - https://www.komplett.no/img/p/800/853507.jpg
+    Kilder - https://www.komplett.no/product/1094958/datautstyr/nettverk/aksesspunkt/ubiquiti-unifi-uap-nanohd-aksesspunkt (Good Accesspoint)
+        Bilde - https://www.komplett.no/img/p/800/1094958.jpg
+    Kilder - https://www.komplett.no/product/1183094/datautstyr/nettverk/aksesspunkt/zyxel-aksesspunkt-wax610d# (Powerfull Accesspoint)
+        Bilde - https://www.komplett.no/img/p/1080/1183094_1.jpg
+}
+Environmental equipment:
+{
+    UPS:
+        Kilder - https://www.newegg.com/cyberpower-cp1500pfclcd-nema-5-15r/p/N82E16842102134
+            Bilde - https://c1.neweggimages.com/ProductImageCompressAll1280/42-102-134-V02.jpg
+        Kilder - https://www.komplett.no/product/925463/datautstyr/pc-tilbehoer/ups-overspenningsvern/ups-og-ups-batteri/bluewalker-powerwalker-ups-vfi-3000-tg
+            Bilde - https://www.komplett.no/img/p/1200/925463.jpg
+    Sikringsskap:
+        Kilder - https://www.komplett.no/product/1012682/pc-nettbrett/server-tilbehoer/rackskap/toten-19-rack-floor-cabinet-18u-600x600
+            Bilde - https://www.komplett.no/img/p/800/1012682.jpg
+        Kilder - https://www.dustinhome.no/product/5011259050/komplett-10-rack-pro-for-nettverksinstallasjoner?ssel=true&ssel=true&gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc6A2dnE-NIm-y7WTPnfsNIrwp2qKLy8Di6Wa8MzGMz0CbnVDVK-L1AaAoiqEALw_wcB#
+            Bilde - https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=400/image/d200001001468932/400/320/digitus-komplett-10-rack-pro-for-nettverksinstallasjoner.jpg
+        Kilder - https://www.dustinhome.no/product/5010960152/modular-fan-package-2-fans---floor-cabinetts?ssel=true&ssel=true&gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc59WNj37-y0Dx1EY_dJLyrvMuawGwTtwe9-WNXAkxqDbMWifu3gJdAaAtiWEALw_wcB#
+            Bilde - https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=400/image/d200001002125017/400/320/toten-modular-fan-package-2-fans-floor-cabinetts.png
+    Brannslukker:
+        Kilde - https://www.obsbygg.no/sikkerhet/brannsikkerhet-og-brannsikring/2330444?v=ObsBygg-7057920832733
+            Bilde - https://www.obsbygg.no/globalassets/productimages/260358_7057920832733_.jpg?ref=C799815E25&w=640&scale=both&mode=pad&h=640&format=jpg
+}
+Services:
+{
+    Firewall & Security Software:
+    Kilder - https://www.bitdefender.com/media/html/consumer/new/2020/cl-offer-opt/?pid=60off&cid=aff|c|ir
+        Bilde - https://fordelaktig.no/media/catalog/product/cache/12/image/500x600/0dc2d03fe217f8c83829496872af24a0/b/i/bitdefendertotalsec.jpg 
+}
+
+
+48. Valutakalkulator (for mest mulig realistiske priser)
+Kilde - https://m.dnb.no/markets/valuta-og-renter/valutakalkulator
+
+49. Difference between cat versions. 
+Kilde - https://www.telco-data.com/cat5e-vs-cat6-vs-cat7-vs-cat8/
+
+50. Cisco IOS and CLI (cisco network & router setup)
 Kilde - http://danscourses.com/cisco-ios-and-cli/
 
 Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
@@ -171,5 +241,12 @@ https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-a
 https://css-tricks.com/when-a-line-doesnt-break/
 https://www.npmjs.com/package/react-use-cart
 https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks
+https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null
+https://www.codegrepper.com/code-examples/javascript/check+if+array+value+exists+in+another+array+javascript
+https://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript
+https://stackoverflow.com/questions/2304052/check-if-a-number-has-a-decimal-place-is-a-whole-number
+
+
+
 
 

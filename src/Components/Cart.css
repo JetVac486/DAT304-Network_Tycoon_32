@@ -25,10 +25,10 @@
     transition: all 0.3s ease-out;
 }
 
-.btn--medium {
+.btn--medium2 {
     font-size: 20px;
     position: relative;
-    padding: 2px;
+    padding: 10px;
 }
 
 .remove_item {
@@ -54,7 +54,7 @@
 
 .money_left {
     display: inline-block;
-    margin-left: 140px;
+    margin-left: 130px;
 }
 
 .line {
