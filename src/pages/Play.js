@@ -51,7 +51,7 @@ function Play() {
         setShow4(false)
         
     };
-
+/*
     const MINUTE_MS = 15000;
 
     useEffect(() => {
@@ -62,7 +62,7 @@ function Play() {
 
     return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
     }, [])
-
+*/
     return (
         <div className='play'>
             <div className="shop-box">

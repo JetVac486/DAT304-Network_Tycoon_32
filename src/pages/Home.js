@@ -1,12 +1,16 @@
 import './Home.css';
 import '../Components/Button.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
 
 function Home() {
-
+    useEffect(() => {
+        console.warn ("working?")
+        alert("agressive alert") }, [])
     return (
         <div className='home-page'>
-            <h1>TYCOON32</h1>
+          
+            <h1>TYCOON3200000</h1>
             <p>- Experience a new way to build and configure a realistic network setup</p>
             <div className='home-btns'>
                 <switch>
