@@ -9,110 +9,20 @@ setRouterreturnarray (["selected router is running, enabled exec mode, you hve s
 //const { useState } = React; //kan v're den allerede er her
 
 
-function ettelerant (){
 //angy code
-function routerenable(nae){ //why u no close?
-    
-    const [routerreturnarray, setRouterreturnarrayy] = useState([]);
-    if (routerreturnarray[nae]!=null){
-        if (nae === 1){
-        //neeeds something to check what has been bought so far
-    
-         routerreturnarray.push("router1")
-        console.log(routerreturnarray);
-            return  routerreturnarray[0,1]
-        } 
-            else{
-           //needs stuff
-           routerreturnarray.push("router2")
-           return  routerreturnarray[0,2]
-           console.log(routerreturnarray);
-            }
-    }
-       else{
-           return"This router is already enabled."
-       }
 
-   // return ["loading ..\n ...\n Router online",true]
-};
-function quit(){
-
-    //const Routerreturnarray=useState([]);
-    //Routerreturnarray.push = ["selected router is running"] //value never exits
-
-    return "bye-nara~"
-};
-function help(){
-    return "helplist"
-}
- // const renable = routerenable();
-//const renable = ["router1","router2"];
- 
-
-//where commands go and otuput :(
-//handleconsoleinput(event) {}
-    /*  Ignore this:
-    telnet og ssh versioner i tilegg?
-     Router>enable
-      Router#configure terminal
-      Router#show running-config
-      Router#show startup-config
-      Router#show version
-      Router#show flash
-      Router#copy running-config startup config
-      */
-                                                                /* const [configarray, setConfigarray] =useState([]);
-configarray.push(Routerreturnarray[1,2]) ;
- function configterm(){
-if (Routerreturnarray.length!= 0 || null ){
-
-
-    configarray.push(" display name and ip maybe ask if user would like to change if we have time")
-return configarray();
-}
-else{
-    return " no routers enabled please run router_enable_routername* where * is the name of your router"}
- };
-const startupcofarr=[]; 
- function startupconfig(){
-if (configarray != null){
-    startupcofarr = configarray[0,1];
-    startupcofarr.map("enabled routers with the correct config will be added to network started up these") 
-    Routerreturnarray =null;
-     return startupcofarr;
-    }
-     else{
-         return "you haven't configured anything"
-     }
- }
-  function pingfunc(ip){
-
-    if( configarray.includes(ip)){
-      return "if this asked for input that would be amazing but lets pretend you pinged something ";}
-      else 
-      return "this ip is out of scope or unreachable"
-  }
-const filesarray = ['iptables.txt']
-  function iptables(){
-    const fs = require('fs');
-    let fileContent = 'i wrote some iptable rules for router';
-fs.writeFileSync('iptables.txt', fileContent);
-
-      return "iptables rules generated automatically"
-  }
-*/
 const commands = {
-   /* help: help(),
-    quit: quit(),
-    inventory: "this functions lists the routers you have purchased. updated ",*/
-    Router_enable_routername1: routerenable(1),
-    Router_enable_routername2: routerenable(2),//would be nice to be able to edit prompt for these so router wasnt in the command but in prompt
-   /* Router_configure_terminal: configterm(),
-    ping: pingfunc(),
+    help: "this command shows a list of excisting functions \n quit, terminate commandline, \n inventory, command absent,should have listed owned routers instead lists routers availabe in store, router_enable_routernaame normaaly in real life when you connect a router the prompt would change to router enable for the router you are configuring. here this command replaces the physical connection step and is to be run first, router_configure_terminal ",
+    quit: "quitting \n ... \n good bye",
+    inventory: "router name 1, cables, idk",
+   Router_enable_routername1: "router has been enabled and ready for config. with version ..",
+    Router_enable_routername2: "router has been enbled and ready for config with version ..",
+   Router_configure_terminal:" Normaly you wouldpick hostnme and ip elected router is running, enabled exec mode, you hve succeeded in configuring the router automaticly with default settings the selected router hostname and ip adress is",
+    ping: "ping ip adress on router",
     router_show_running_config:"this should print running routers",
-    router_startup_config:startupconfig(),
-    router_show_flash: filesarray,
-    iptable: iptables(),*/
+    router_startup_config:"starting router and connecting to the external network. congratulations your new router is online", 
+    router_show_flash: "this lists the filesystem on the router currently empty",
+    iptable: "this should have let you configure firewall rules currently depricated. ",
 };
 
 const UseOnEnter = () => {
@@ -127,9 +37,9 @@ const UseOnEnter = () => {
 
     return [consoleOutput, onEnter];
 };
-}
 
 export default UseOnEnter;
+
 
 /*
 tror disse er viktige
@@ -140,3 +50,5 @@ https://docs.vmware.com/en/VMware-Cloud-Director-Availability/4.0/VMware-Cloud-D
 https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3560/software/release/12-2_46_se/command/reference/cr1/intro.pdf
 https://www.pluralsight.com/blog/it-ops/cisco-console-router-configuration
 */
+
+//https://www.youtube.com/watch?v=XGD2_76mzWI
