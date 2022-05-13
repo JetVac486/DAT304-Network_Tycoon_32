@@ -135,7 +135,7 @@ const data = {
             img: 'https://info.cgcompliance.com/hubfs/cloud.jpg',
             title: 'Cloud', 
             desc: 'cloud backup',
-            price: 37.5, 
+            price: 63.5, 
         }, 
         {
             id: 20, 
@@ -149,13 +149,13 @@ const data = {
             img: 'https://us.123rf.com/450wm/dizanna/dizanna1911/dizanna191100157/133041040-isp-internet-service-provider-acronym-technology-concept-background.jpg?ver=6',
             title: 'ISP', 
             desc: 'god tilkobling',
-            price: 28.5, 
+            price: 48.5, 
         },
         {
             id: 22, 
             img: 'https://fordelaktig.no/media/catalog/product/cache/12/image/500x600/0dc2d03fe217f8c83829496872af24a0/b/i/bitdefendertotalsec.jpg',
-            title: 'Bitdefender', 
-            desc: 'Total Security 1 Year',
+            title: 'Firewall', 
+            desc: 'Bitdefender',
             price: 42, 
         }
     ],

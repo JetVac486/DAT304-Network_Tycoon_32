@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import {FaPhoenixSquadron } from "react-icons/fa";
+import {FaPhoenixSquadron, FaBars, FaTimes} from "react-icons/fa";
 /*
 Kilder:
 https://www.freecodecamp.org/news/how-to-use-react-icons/
@@ -39,7 +39,9 @@ function Navbar() {
                         <p class='spaced-logo'>TYCOON32</p>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
+                        {
+                            click? <FaTimes/>: <FaBars/>
+                        }
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>

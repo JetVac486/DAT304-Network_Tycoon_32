@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import {FaChevronLeft } from "react-icons/fa";
 import {FaChevronRight } from "react-icons/fa";
-import {thisrouter, thiscables, thisswitch, thisskap, thisslukker, thisaggregat, thiscloud, thissecurity, thisisp } from '../Components/Cart';
+import {thisrouter, thiscables, thisswitch, thisaccesspoint, thisups, thisskap, thisfans, thisslukker, thiscloud, thissecurity, thisisp, thisfirewall } from '../Components/Cart';
 
 export class Responsive extends Component {
     
@@ -46,9 +46,9 @@ export class Responsive extends Component {
                         </div>
                     </div>
                     <div className="box">
-                        <img src="https://m.media-amazon.com/images/I/41KxiEtu+5S._AC_SL1200_.jpg" alt="" />
+                        <img src={thisaccesspoint.img} alt="" />
                         <div className="cards_body">
-                            <p className="txt">Accsesspoint</p>
+                            <p className="txt">{thisaccesspoint.title}</p>
                         </div>
                     </div>
                     <div>
@@ -107,9 +107,9 @@ export class Service extends Component {
                         </div>
                     </div>
                     <div className="box">
-                        <img src="https://m.media-amazon.com/images/I/41KxiEtu+5S._AC_SL1200_.jpg" alt="" />
+                        <img src={thisfirewall.img} alt="" />
                         <div className="cards_body">
-                            <p className="txt">Accsesspoint</p>
+                            <p className="txt">{thisfirewall.title}</p>
                         </div>
                     </div>
                     <div>
@@ -150,27 +150,27 @@ export class Environmental extends Component {
                 <h2 className="txt2"> Services</h2>
                 <Slider {...settings}>
                     <div className="box">
+                        <img src={thisups.img} alt="" />
+                        <div className="cards_body">
+                            <p className="txt">{thisups.title}</p>
+                        </div>
+                    </div>
+                    <div className="box">
                         <img src={thisskap.img} alt="" />
                         <div className="cards_body">
                             <p className="txt">{thisskap.title}</p>
                         </div>
                     </div>
                     <div className="box">
+                        <img src={thisfans.img} alt="" />
+                        <div className="cards_body">
+                            <p className="txt">{thisfans.title}</p>
+                        </div>
+                    </div>
+                    <div className="box">
                         <img src={thisslukker.img} alt="" />
                         <div className="cards_body">
                             <p className="txt">{thisslukker.title}</p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <img src={thisaggregat.img} alt="" />
-                        <div className="cards_body">
-                            <p className="txt">{thisaggregat.title}</p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <img src="https://m.media-amazon.com/images/I/41KxiEtu+5S._AC_SL1200_.jpg" alt="" />
-                        <div className="cards_body">
-                            <p className="txt">Accsesspoint</p>
                         </div>
                     </div>
                     <div>
@@ -193,90 +193,3 @@ export class Environmental extends Component {
 }
 
 // https://react-slick.neostack.com/docs/example/multiple-items
-
-/* 
-<ul>
-    {thiscart.map((item, index) => {
-        <div>
-            <img src="https://media.4rgos.it/i/Argos/5728882_R_Z001A?w=750&h=440&qlt=70" alt="" />
-            <div className="cards_body">
-                <p className="txt">Router</p>
-            </div>
-        </div>
-    }} 
-</ul>
-
- <img src={thiscart.img} alt="" />
-            <div className="cards_body">
-                <p className="txt">{thiscart.title}</p>
-            </div>
-
-thiscart[0].forEach(element => {
-                element.incudes('title')
-                if (element.title.includes('Router')) {
-                    return(
-                        <>
-                            <img src={thiscart[0][0].img} alt="" />
-                            <div className="cards_body">
-                                <p className="txt" >{thiscart[0][0].title}</p>
-                            </div>
-                        </>
-                    ) 
-                }
-
-function Router_slider () {
-            if (thiscart[0][0].title.includes('Router')) {
-                return(
-                    <>
-                        <img src={thiscart[0][0].img} alt="" />
-                        <div className="cards_body">
-                            <p className="txt" >{thiscart[0][0].title}</p>
-                        </div>
-                    </>
-                )
-            }  
-            else {
-                return(
-                    <>
-                        <img src="https://media.4rgos.it/i/Argos/5728882_R_Z001A?w=750&h=440&qlt=70" alt="" />
-                        <div className="cards_body">
-                            <p className="txt">Router</p>
-                        </div>
-                    </>
-                )
-            }
-        }
-
-
-function UpdateSlider () {
-            const [show,setShow] = useState(false);
-            const visability = () => {
-                if(thisrouter.length > 0) {
-                    return(
-                        <div>
-                            <img src={thisrouter.img} alt="" />
-                            <div className="cards_body">
-                                <p className="txt">{thisrouter.title}</p>
-                            </div>
-                        </div>
-                    )
-                }
-                else if (thisrouter.length == null) {
-                    return(
-                        <div>
-                            <img src="https://media.4rgos.it/i/Argos/5728882_R_Z001A?w=750&h=440&qlt=70" alt="" />
-                            <div className="cards_body">
-                                <p className="txt">Router</p>
-                            </div>
-                        </div>
-                    )
-                }
-                else {
-                    return null;
-                }
-            };
-            useEffect(() => {
-                visability();
-            }, [])
-        }
-*/

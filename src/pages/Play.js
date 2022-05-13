@@ -11,7 +11,6 @@ export var payout = [];
 
 function Play() {
     
-    //var router_data = 100;
     const [router_datas, setRouterdatas] = useState(100);
     const [totaldata,setTotaldata] = useState(0);
     var increment = 0.1;
@@ -29,9 +28,8 @@ function Play() {
         
     };
     /*
-    Hvordan få til å vite utstyr som er blitt kjøpt og vise basert på dette. 
     4 stages av utstyr: 
-    - Basic
+    - Starter (Basic)
     - Normal
     - Good
     - Exelent /Powerfull 
@@ -63,25 +61,13 @@ function Play() {
             }
         });
     }
-/*
-    thiscart.forEach(element => {
-        if (element.title.includes('Good')){
-            router_data = 200;
-        }
-    });
-*/
+
     const MINUTE_MS3 = 5000;
 
     useEffect(() => {
         const data_transfer = setInterval(() => {
             gooddata();
             setTotaldata(totaldata => parseFloat((totaldata + increment).toFixed(2)));
-            /*isready = parseFloat((isready + increment).toFixed(2));
-            console.log(isready)
-            if(Number.isInteger(isready)) {
-                payout = 1;
-                console.log(payout)
-            }*/
         }, MINUTE_MS3);
 
         return () => clearInterval(data_transfer);

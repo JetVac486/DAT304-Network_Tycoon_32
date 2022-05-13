@@ -90,37 +90,3 @@ const RegisterForm = ({signupForm}) => {
 }
 
 export default RegisterForm;
-
-/*
-required  pattern="[A-Za-z]{1, 9}"
-required pattern="[/^[^\s@]+@[^\s@]+\.[^\s@]+$/]{5, 20}"
-required pattern="/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d][A-Za-z\d!@#$%^&*()_+]{7,19}$/"
-
-const HandleRegister = (event) => {
-        event.preventDefault();
-        setErrors(RegisterValidation(values));
-        setInputIsCorrect(true);
-        setFormIsRegistered(true);
-    };
-
-console.log(response);
-setInputIsCorrect(true);
-setFormIsRegistered(true);
-
-const [formIsRegistered, setFormIsRegistered] = useState(Boolean);
-
-const TestingForm = (e) => {
-    e.preventDefault();
-    setErrors(RegisterValidation(values));
-    if(Object.keys(errors).length === 0 && values.name !="", values.email !="", values.password !=""){
-        setInputIsCorrect(true)
-        console.log("input is correct, and accepted!")
-    }
-    else{
-        setInputIsCorrect(false)
-        console.log("fill in missing information!")
-    }
-} 
-
-<button className='register register-btn' onClick={TestingForm}>test</button>
-*/

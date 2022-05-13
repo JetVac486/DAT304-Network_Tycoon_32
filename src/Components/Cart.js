@@ -1,19 +1,21 @@
 import React, {useState, useEffect} from 'react'
 import {useCart} from 'react-use-cart';
 import './Cart.css';
-//import payout from '../pages/Play';
 import {isready} from '../pages/Play';
 
 export var thiscart = [];
 export var thisrouter = "";
 export var thiscables = "";
 export var thisswitch = "";
+export var thisaccesspoint = "";
+export var thisups = "";
 export var thisskap = "";
+export var thisfans = "";
 export var thisslukker = "";
-export var thisaggregat = "";
 export var thiscloud = "";
 export var thissecurity = "";
 export var thisisp = "";
+export var thisfirewall = "";
 
 const Cart = () => {
     const { 
@@ -28,8 +30,6 @@ const Cart = () => {
     } = useCart();
 
     const [money, setMoney] = useState(1450);
-    //const [pause,setPause] = useState(false);
-    //const [money_increment, setMoney_increment] = useState(10);
     var increment = 10;
 
     function total () {
@@ -53,7 +53,6 @@ const Cart = () => {
         else if (randomNumber == 4){
             console.log("A power outage happened!")
             setMoney(money => money - (money/2))
-            //setPause(true);
         }
         else if (randomNumber == 7){
             console.log("Equipment failure!")
@@ -84,17 +83,20 @@ const Cart = () => {
                 else if (element.title.includes('Switch')){
                     thisswitch = element;
                 }
+                else if (element.title.includes('Accesspoint')){
+                    thisaccesspoint = element;
+                }
+                else if (element.title.includes('UPS')){
+                    thisups = element;
+                }
                 else if (element.title.includes('Sikringsskap')){
                     thisskap = element;
                 }
-                else if (element.title.includes('Brannslukker')){
-                    thisslukker = element;
+                else if (element.title.includes('Fans')){
+                    thisfans = element;
                 }
                 else if (element.title.includes('Brannslukker')){
                     thisslukker = element;
-                }
-                else if (element.title.includes('Aggregat')){
-                    thisaggregat = element;
                 }
                 else if (element.title.includes('Cloud')){
                     thiscloud = element;
@@ -104,6 +106,9 @@ const Cart = () => {
                 }
                 else if (element.title.includes('ISP')){
                     thisisp = element;
+                }
+                else if (element.title.includes('Firewall')){
+                    thisfirewall = element;
                 }
             });
         }
@@ -118,7 +123,6 @@ const Cart = () => {
 
     useEffect(() => {
         total();
-        //console.log(payout)
         const interval = setInterval(() => {
             if (isready == 1) {
                 increment = 25;
@@ -145,12 +149,6 @@ const Cart = () => {
         return () => clearInterval(interval, interval2);
     }, [])
 
-    /*
-        if (pause == true) {
-            const timer = setTimeout(interval, 20000);
-            return () => clearTimeout(timer);
-        }
-        */
 
     if(isEmpty) return <h1 className='empty_cart_txt'>Your Cart is Empty</h1>
 
