@@ -29,7 +29,7 @@ const Cart = () => {
         emptyCart, 
     } = useCart();
 
-    const [money, setMoney] = useState(1450);
+    const [money, setMoney] = useState(145);
     var increment = 10;
 
     function total () {
@@ -47,19 +47,19 @@ const Cart = () => {
         var randomNumber = Math.floor((Math.random() * maxNumber) + 1);
         console.log(randomNumber);
         if (randomNumber == 1){
-            console.log("You have been hacked!")
+            alert("You have been hacked!")
             setMoney(money => money - money)
         }
         else if (randomNumber == 4){
-            console.log("A power outage happened!")
+            alert("A power outage happened!")
             setMoney(money => money - (money/2))
         }
         else if (randomNumber == 7){
-            console.log("Equipment failure!")
+            alert("Equipment failure!")
             setMoney(money => money - (money/4))
         }
         else if (randomNumber == 21){
-            console.log("Your internett went down!")
+            alert("Your internett went down!")
             setMoney(money => money - (money/2))
         }
         else {

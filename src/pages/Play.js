@@ -38,10 +38,10 @@ function Play() {
     var gooditem = "";
     var powerfullitem = "";
 
-    function gooddata () {
+    function routerdata () {
         thiscart.forEach(element => {
             if (element.title.includes('Normal')){
-                gooditem = element;
+                normalitem = element;
                 increment = 0.2;
                 isready = 1;
                 setRouterdatas(200);
@@ -66,7 +66,7 @@ function Play() {
 
     useEffect(() => {
         const data_transfer = setInterval(() => {
-            gooddata();
+            routerdata();
             setTotaldata(totaldata => parseFloat((totaldata + increment).toFixed(2)));
         }, MINUTE_MS3);
 

@@ -71,8 +71,6 @@ app.post("/login", (req, res) => {
     );
 })
 
-    // https://www.youtube.com/watch?v=dXjcvIPSBr4 
-
 app.listen(3001, () => {
     console.log("Running server");
 });

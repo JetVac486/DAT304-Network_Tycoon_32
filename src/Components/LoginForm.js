@@ -24,7 +24,6 @@ function LoginForm({Login}) {
             if(response.data.message){
                 console.log(response.data.message)
                 setLoginStatus(response.data.message)
-                console.log(loggedIn)
             }
             else{
                 console.log(response.data)
