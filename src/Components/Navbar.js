@@ -3,15 +3,22 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import {FaPhoenixSquadron, FaBars, FaTimes} from "react-icons/fa";
+import {shit, shj} from './LoginForm';
+import Logout from './LoginForm';
 /*
 Kilder:
 https://www.freecodecamp.org/news/how-to-use-react-icons/
 https://react-icons.github.io/react-icons/icons?name=fa
 */
+export var shj2 = 0;
 
 function Navbar() {
+
+    var jemen = "hi";
+
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [usrname, setUsrname] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -24,9 +31,30 @@ function Navbar() {
         }
     };
 
+    const showname2 = () => {
+        shj2 = 1;
+        showButton();
+    };
+
+    const showname = () => {
+        if (shj == true) {
+            setUsrname(false);
+        }
+        else {
+            setUsrname(true);
+        }
+    };
+
+    const MINUTE_MS3 = 2000;
+
     useEffect(() => {
         showButton();
-    }, []);
+        const data_transfer = setInterval(() => {
+            showname();
+        }, MINUTE_MS3);
+
+        return () => clearInterval(data_transfer);
+    }, [])
 
     window.addEventListener('resize', showButton);
 
@@ -50,22 +78,33 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/play' className='nav-links' onClick={closeMobileMenu}>
-                                Play
-                            </Link>
-                        </li>
+                            {(shj != true) ? null : (
+                                <Link to='/play' className='nav-links' onClick={closeMobileMenu}>
+                                    Play
+                                </Link>
+                            )}
+                            </li>
                         <li className='nav-item'>
                             <Link to='/signup' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sign Up
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu} >
                                 Log In
                             </Link>
                         </li>
+                        <li className='nav-item space-btwn-btn2'>
+                            {(shj != true) ? (
+                                <button className='btn--medium btn--outline' onClick={event =>  window.location.href='/login'}>JOIN NOW</button>
+                                ) : (shit)}
+                        </li>
+                        <li className=' nav-item space-btwn-btn'>
+                            {(shj != true) ? null : (
+                                <button className='btn--medium btn--outline' onClick={showname2}>LOG OUT</button>
+                            )}
+                        </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' onClick={event =>  window.location.href='/login'}>JOIN NOW</Button>}
                 </div>
             </nav>
         </>
