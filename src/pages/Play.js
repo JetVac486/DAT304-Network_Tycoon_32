@@ -34,7 +34,7 @@ function Play() {
     - Good
     - Exelent /Powerfull 
     */
-   var normalitem = "";
+    var normalitem = "";
     var gooditem = "";
     var powerfullitem = "";
 

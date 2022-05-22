@@ -218,7 +218,6 @@ Services:
         Bilde - https://fordelaktig.no/media/catalog/product/cache/12/image/500x600/0dc2d03fe217f8c83829496872af24a0/b/i/bitdefendertotalsec.jpg 
 }
 
-
 48. Valutakalkulator (for mest mulig realistiske priser)
 Kilde - https://m.dnb.no/markets/valuta-og-renter/valutakalkulator
 
@@ -228,8 +227,8 @@ Kilde - https://www.telco-data.com/cat5e-vs-cat6-vs-cat7-vs-cat8/
 50. Cisco IOS and CLI (cisco network & router setup)
 Kilde - http://danscourses.com/cisco-ios-and-cli/
 
-Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
-Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
+51. Get rid of <Link> tag underline
+Kilde - https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 
 Ekstra div kilder: 
 https://codeshack.io/basic-login-system-nodejs-express-mysql/

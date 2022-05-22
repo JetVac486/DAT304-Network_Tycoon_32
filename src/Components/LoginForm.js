@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import LoginValidation from './LoginValidation';
 import Axios from 'axios';
 import './Login.css';
+import { Link } from 'react-router-dom';
+import { shj2 } from './Navbar';
+
+export var shit = "hi";
+export var shj = false;
 
 function LoginForm({Login}) {
 
-    
     const [values, setValues] = useState({name:'', email:'', password:''});
     const [errors, setErrors] = useState({});
     const [loginStatus, setLoginStatus] = useState("");
@@ -29,7 +33,8 @@ function LoginForm({Login}) {
                 console.log(response.data)
                 setLoginStatus(response.data[0].Username)
                 setLoggedIn(true);
-                console.log(loggedIn)
+                shit = response.data[0].Username
+                shj = true
             }
         });
     }
@@ -38,6 +43,8 @@ function LoginForm({Login}) {
         setValues({name:'', email:'', password:''});
         setLoggedIn(false);
         setLoginStatus("");
+        shit = "";
+        shj = false;
     }
 
     const HandleLogin = (event) => {
@@ -45,6 +52,19 @@ function LoginForm({Login}) {
         console.log(loginStatus)
         Login(values);
     };
+
+    const MINUTE_MS3 = 1000;
+
+    useEffect(() => {
+        
+        const data_transfer = setInterval(() => {
+            if (shj2 == 1) {
+                Logout();
+            }
+        }, MINUTE_MS3);
+
+        return () => clearInterval(data_transfer);
+    }, [])
 
     return (
         <div className='login-page'>
@@ -82,7 +102,9 @@ function LoginForm({Login}) {
             ) : (
                 <div className="welcome-msg">
                     <h2 className='title'>Welcome {loginStatus}</h2>
-                    <button className='login login-btn2' onClick={event =>  window.location.href='/play'}>START PLAYING</button>
+                    <Link to='/play'style={{ textDecoration: 'none' }}>
+                        <button className='login login-btn2'>START PLAYING</button>
+                    </Link>
                     <button className='login login-btn2' onClick={Logout}>Logout</button>
                 </div>
             )}

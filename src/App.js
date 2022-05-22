@@ -15,7 +15,7 @@ function App() {
         <Navbar/>
           <Routes>
             <Route exact path='/'element={<Home/>} />
-            <Route path='/play' element={<Play/>} />
+            <Route path='/play' element={<Play/>} /> 
             <Route path='/register' element={<RegisterForm/>} />
             <Route path='/login' element={<LoginForm/>} />
           </Routes>

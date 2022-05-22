@@ -38,13 +38,12 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
 }
 
 .nav-item {
@@ -82,6 +81,15 @@
 
 .spaced-logo{
         margin: 16px;
+}
+
+.space-btwn-btn {
+    transform: translate(0%, 25%);
+}
+
+.space-btwn-btn2 {
+    transform: translate(0%, 28%);
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
