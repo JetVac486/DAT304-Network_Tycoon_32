@@ -48,7 +48,7 @@
 }
 
 .nav-item {
-    height: 80px;
+    height: 100px;
 }
 
 .nav-links {
@@ -56,8 +56,10 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
+    padding: 0rem 1rem;
+    height: 60%;
+    margin-top: 16px;
+    margin-right: 10px;
 }
 
 .nav-links:hover {
@@ -100,7 +102,7 @@
     }
 
     .nav-menu.active {
-        background: #242222;
+        background: #014874;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -109,9 +111,11 @@
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
         display: table;
+        transform: translate(0%, -210%);
+        font-size: 3rem;
     }
 
     .nav-links:hover {
@@ -135,6 +139,7 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+        color: white;
     }
 
     .fa-times {
@@ -145,16 +150,16 @@
     .nav-links-mobile {
         display: block;
         text-align: center;
-        margin: 2rem auto;
+        margin: 1.5rem auto;
         border-radius: 4px;
-        width: 80%;
+        width: 100%;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 3rem;
         background-color: transparent;
         color: #fff;
-        padding: 14px 20px;
-        border: 1px solid #fff;
-        transition: all 0.3s ease-out;
+        padding: 1.5rem;
+        transition: all 0.2s ease-out;
+        transform: translate(0%, -240%);
     }
 
     .nav-links-mobile:hover {

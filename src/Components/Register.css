@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+/*^^ Kilde: https://css-tricks.com/perfect-full-page-background-image ^^/*/
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    margin-top: 40px;
+    background-color: transparent;
+    min-width: 440px;
+    min-height: 560px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 45px;
+}
+
+.name,.email,.password {
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.password {
+    margin-bottom: 30px;
+}
+
+.input {
+    height: 34px;
+    font-size: 23px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.register {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #092f79, #00d4ff);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,  rgba(0, 0, 0, 0.22) 0åx 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+.form-success {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    min-width: 300px;
+    color: white;
+    font-size: 50px;
+}
+
+/*Kilde: https://www.youtube.com/watch?v=WvRwiE9IkFg&t=1s */
+
+.login-btn3 {
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.register-btn {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.link2 {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,74 @@
+::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:white;
+}
+
+.card{
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 0.2rem;
+    min-width: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.card_img{
+    width: 14rem;
+    height: 14rem;
+}
+
+.card_body{
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+.card_title{
+    margin-bottom: 0.5rem;
+    font-size: 34px;
+    line-break: auto;
+    white-space: pre-line;
+    width: 100%;
+}
+
+.card_description{
+    font-size: 26px;
+}
+
+.card_price{
+    font-size: 1.4rem;
+    margin-top: 0.6rem; 
+}
+
+.card_price::before{
+    content:"$";
+    font-size: 1rem;    
+    position: relative;
+    top: -0.3rem;
+    padding-right: 0.1rem;
+}
+
+.card_btn{
+    border: none;
+    border-top: 1px solid gray;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card_btn:hover{
+    color:aqua;
+}
+
+

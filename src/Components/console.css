@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.console-output {
+    overflow:auto;
+    top:10px;
+    width: 74rem;
+    height: 9rem;
+    transform: translate(0%, 0%);
+}
+
+
+.input-prompt {
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    overflow: hidden;
+
+}
+.console {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0px;
+    margin-top: 6px;
+}
+
+input {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    width: 62.5%;
+    font-size: 1em;
+}

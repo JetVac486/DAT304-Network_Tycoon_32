@@ -1,6 +1,5 @@
 import './Home.css';
-import {Button} from "../Components/Button";
-import {BrowserRouter as Router, Link } from 'react-router-dom';
+import '../Components/Button.css';
 import React from 'react';
 
 function Home() {
@@ -11,13 +10,13 @@ function Home() {
             <p>- Experience a new way to build and configure a realistic network setup</p>
             <div className='home-btns'>
                 <switch>
-                <Link to='/play'>
-                        <Button onClick={event =>  window.location.href='/play'} buttonStyle='btn--outline' buttonSize='btn--large' >START PLAYING</Button>
-                    </Link>
+                    <button className='login login-btn2' onClick={event =>  window.location.href='/login'}>JOIN NOW</button>
                 </switch>
             </div>
         </div>
     );
 }
+
+ /* Kilde: https://stackoverflow.com/questions/50644976/react-button-onclick-redirect-page */
 
 export default Home;

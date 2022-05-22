@@ -1,0 +1,252 @@
+Kilder brukt i prosjekt koden:
+
+1. Nettside grunnlag
+Kilde - https://www.youtube.com/watch?v=I2UBjN5ER4s&t=4210s&ab_channel=BrianDesign
+Kilde - https://github.com/briancodex/react-website-v1/tree/starter
+
+2. Bakgrunns-Bilde
+Kilde - https://wallpaperaccess.com/network-technology
+
+3. Register side
+Kilde - https://www.youtube.com/watch?v=WvRwiE9IkFg&t=1s
+Kilde - https://www.youtube.com/watch?v=KGFG-yQD7Dw&ab_channel=BrianDesign
+
+4. Login side
+Kilde - https://www.youtube.com/watch?v=91qEdc6dSUs&t=1250s&ab_channel=TylerPotts
+
+5. React Icons (FaPhoenixSquadron)
+Kilde - https://www.freecodecamp.org/news/how-to-use-react-icons/
+Kilde - https://react-icons.github.io/react-icons/icons?name=fa
+
+6. Button onClick redirect to url
+Kilde - https://stackoverflow.com/questions/50644976/react-button-onclick-redirect-page
+
+7. Cover entire background with image
+Kilde - https://css-tricks.com/perfect-full-page-background-image
+
+8. Linear gradient fargekombinasjon
+Kilde - https://cssgradient.io/
+
+9. Diverse css oppsøkninger
+Kilde - https://www.w3schools.com/css/
+
+10. Auto-complete code and write faster 
+Kilde - https://www.youtube.com/watch?v=ph65TPiNmKo&ab_channel=BrianDesign
+
+11. Not equal opperator
+Kilde - https://techfunda.com/howto/729/not-equal-operator
+
+12. Register user info into mysql database and check for existing users on login
+Kilde - https://www.youtube.com/watch?v=W-sZo6Gtx_E&t=503s&ab_channel=PedroTech 
+Kilde - https://www.youtube.com/watch?v=jzBgZjOJJnY&ab_channel=CodingwithKevin
+Kilde - https://www.youtube.com/watch?v=Uh2JCSUjA_E&t=536s&ab_channel=CodingwithKevin
+Kilde - https://www.youtube.com/watch?v=rK6oTTbVbcY&ab_channel=CodingwithKevin
+
+13. Disallow empty values for a column in MySQL
+Kilde - https://poopcode.com/disallow-empty-values-for-a-column-in-mysql/
+
+14. res.send() error (databasen krasjet pga flere res.send() i samme funksjon/kall.)
+Kilde - https://stackoverflow.com/questions/7042340/error-cant-set-headers-after-they-are-sent-to-the-client
+
+15. bcrypt password hashing
+Kilde - https://www.youtube.com/watch?v=sTHWNPVNvm8&t=424s&ab_channel=PedroTech
+
+16. javascript regex username validation
+Kilde - https://stackoverflow.com/questions/9628879/javascript-regex-username-validation
+
+17. Regex for password must contain 5-12 characters, at least one number and both lower and uppercase letters and special characters
+Kile - https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
+
+18. JavaScript Regular Expression Visualizer
+Kilde - https://jex.im/regulex/#!flags=&re=%5E(%3F%3D.*%3F%5BA-Z%5D).%7B5%2C12%7D%24
+
+19. Hide, Show and Toggle visability of elements
+Kilde - https://www.youtube.com/watch?v=UGSN6o29fPo&ab_channel=CodeStepByStep
+Kilde - https://www.codegrepper.com/code-examples/javascript/hide+and+show+on+button+click+in+react+js+functional+component
+
+20. Shop component til spillet
+Kilde - https://www.youtube.com/watch?v=3_gakM-y7hE&ab_channel=AngelaDelise
+
+21. Bilder Shop component
+Kilde - https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453039_sd.jpg;maxHeight=640;maxWidth=550
+Kilde - https://tipsmake.com/data/thumbs/basic-information-about-network-equipment-thumb-NTW2CSBzt.jpg
+Kilde - https://603168-1953132-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/cisco_switch.jpg
+
+22. Horizontal Line 
+Kilde - https://www.w3schools.com/tags/tag_hr.asp
+
+23. Stop Propagation
+Kilde - https://stackoverflow.com/questions/63411940/how-to-create-two-onclick-events-on-a-clickable-cards-in-react
+
+24. Customize scrollbar
+Kile - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+Kilde - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2
+
+25. <bdi> tag (text tags, som kan erstatte <p>, <h>, osv..)
+Kilde - https://www.w3schools.com/tags/ref_byfunc.asp
+
+26. Hente values fra useState's i en fil over til en annen. 
+Kilde - https://stackoverflow.com/questions/63217964/how-to-access-state-in-function-which-is-in-another-file
+
+27. Timer that adds 10$ every 15 seconds
+Kilde - https://stackoverflow.com/questions/65049812/how-to-call-a-function-every-minute-in-a-react-component
+
+28. Terminal 
+Kilde - https://www.youtube.com/watch?v=HVVNR96GhPk&ab_channel=NateDotJs
+Kilde - https://github.com/thisprojects/console-tutorial
+
+29. CSS bottom Property (top er helt lik bare med top isteden for bottom)
+Kilde - https://www.w3schools.com/cssref/pr_pos_bottom.asp
+
+30. Add item to array
+Kilde - https://www.w3schools.com/jsref/jsref_push.asp
+
+31. Reading array elements with map instead of forEach in reactjs
+Kilde - https://stackoverflow.com/questions/57397855/reading-array-elements-with-foreach-in-reactjs
+
+32. Sum of array elements returns NaN
+Kilde - https://stackoverflow.com/questions/25994548/sum-of-array-elements-returns-nan
+
+33. React Slider (for components & services slideshow)
+Kilde - https://www.youtube.com/watch?v=lgBsm42Fs4k&t=50s&ab_channel=ShravanMeena
+Kilde - https://react-slick.neostack.com/docs/example/multiple-items
+Kilde - https://github.com/kenwheeler/slick/
+
+34. React Slider images
+Kilder - https://media.4rgos.it/i/Argos/5728882_R_Z001A?w=750&h=440&qlt=70
+kilder - https://newattitude.no/wp-content/uploads/2017/06/network-cables-494645_1280_web.jpg
+Kilder - https://img.prisguiden.no/2971/2971265/original.1024x422!m.jpg
+Kilder - https://m.media-amazon.com/images/I/41KxiEtu+5S._AC_SL1200_.jpg
+
+35. React Icons (FaChevronLeft, FaChevronRight)
+Kilder - https://react-icons.github.io/react-icons/icons?name=fa
+
+36. Custom Arrows React Slider
+Kilde - https://react-slick.neostack.com/docs/example/custom-arrows
+Kilde - https://www.youtube.com/watch?v=Vh0uow-zpwk&ab_channel=CyberCodeStar
+
+37. !important for å overskrive css/design/kode
+Kilde - https://stackoverflow.com/questions/13117126/how-to-overwrite-css-style
+
+38. Select last element in an array
+Kilde - https://flaviocopes.com/how-to-get-last-item-array-javascript/
+
+39. import/Export values from one file to another
+Kilde - https://bobbyhadz.com/blog/react-import-variable-from-another-file
+
+41. React js Shopping Cart for beginner
+Kilde - https://www.youtube.com/watch?v=B0E2esA5nQo&ab_channel=CodeWithYd
+
+42. Generate random numbers 0-24 
+(
+the numbers are used for the insidents that can happen and with 4 incidents out of 80 otuputs, 
+there is more or less a 5% chance for an incident to happen.
+)
+Kilde - https://stackoverflow.com/questions/65953217/how-to-display-one-value-from-many-inputs-randomly-with-react-hooks
+Kilde - https://codesandbox.io/s/silly-hugle-rt6yf?file=/src/App.js:654-690
+Kilde - https://percentagecalculator.net/
+Kilde - https://www.codegrepper.com/code-examples/javascript/generate+random+number+in+react+js
+
+43. More pictures for the card components
+Kilder - https://dustinweb.azureedge.net/content/78142/komplett-10-tumsrack-pro-inline-11.jpg
+Kilder - https://ps-selskapsutleie.no/wp-content/uploads/2021/12/w1200h1200-190.jpg
+Kilder - https://www.hyttetorget.no/content/mma/products/05/593/59384/EU22_2.jpg
+Kilder - https://info.cgcompliance.com/hubfs/cloud.jpg
+Kilder - https://www.plixer.com/wp-content/uploads/2019/01/annam_1-15-19_01.png
+Kilder - https://us.123rf.com/450wm/dizanna/dizanna1911/dizanna191100157/133041040-isp-internet-service-provider-acronym-technology-concept-background.jpg?ver=6
+
+44. how to enter subgroups for an array that has multiple arrays within.
+Kilde - https://www.codegrepper.com/code-examples/javascript/get+element+of+an+array+inside+another+array
+
+45. Check for a string containing a sertain word.
+Kilde - https://www.codegrepper.com/code-examples/javascript/react+string+contains
+
+46. for i in loop (for (var i = 0; i < 10; i++))
+Kilde - https://stackoverflow.com/questions/45080425/arrays-inside-an-array-javascript
+Kilde - https://www.w3schools.com/js/js_arrays.asp
+
+47. Oppdaterte komponenter i data.js filen (shop componentene) 
+Network equipment:
+{
+    Kilder - https://www.komplett.no/product/1160107/datautstyr/nettverk/routere/tp-link-archer-ax50-router# (Normal Router)
+        Bilde - https://www.komplett.no/img/p/590/1160107.jpg
+    Kilder - https://www.komplett.no/product/1180236/datautstyr/nettverk/routere/netgear-nighthawk-ax8-router# (Good Router)
+        Bilde - https://www.komplett.no/img/p/1200/1180236.jpg
+    Kilder - https://www.komplett.no/product/1205569/datautstyr/nettverk/routere/asus-rog-rapture-gt-axe11000# (Powerfull Router)
+        Bilde - https://www.komplett.no/img/p/1200/1205569.jpg
+    Kilder - https://www.komplett.no/product/846144/datautstyr/nettverk/nettverkskabler/nettverkskabel-cat5e-graa-5m (Normal Cables)
+        Bilde - https://www.komplett.no/img/p/1200/846144.jpg
+    Kilder - https://www.komplett.no/product/1127181/datautstyr/nettverk/nettverkskabler/nettverkskabel-cat6a-graa-15m (Good Cables)
+        Bilde - https://www.komplett.no/img/p/1200/1127181.jpg
+    Kilder - https://www.komplett.no/product/1192723/datautstyr/nettverk/nettverkskabler/supra-catkabel-cat-8-stp-2m?q=cat%208 (Powerfull Cables)
+        Bilde - https://www.komplett.no/img/p/800/1192723.jpg
+    Kilder - https://www.komplett.no/product/821779/datautstyr/nettverk/switch/tp-link-tl-sg108-switch (Normal Switch)
+        Bilde - https://www.komplett.no/img/p/640/821779.jpg
+    Kilder - https://www.komplett.no/product/922978/datautstyr/nettverk/switch/netgear-gs108pe-poe-switch (Good Switch)
+        Bilde - https://www.komplett.no/img/p/1200/922978.jpg
+    Kilder - https://www.komplett.no/product/1191037/datautstyr/nettverk/switch/cbs110-unmanaged-24-port-ge-2x1g-sfp-shared (Powerfull Switch)
+        Bilde - https://www.komplett.no/img/p/1080/1191037.jpg
+    Kilder - https://www.komplett.no/product/853507/datautstyr/nettverk/aksesspunkt/tp-link-cpe210-traadloest-aksesspunkt (Normal Accesspoint)
+        Bilde - https://www.komplett.no/img/p/800/853507.jpg
+    Kilder - https://www.komplett.no/product/1094958/datautstyr/nettverk/aksesspunkt/ubiquiti-unifi-uap-nanohd-aksesspunkt (Good Accesspoint)
+        Bilde - https://www.komplett.no/img/p/800/1094958.jpg
+    Kilder - https://www.komplett.no/product/1183094/datautstyr/nettverk/aksesspunkt/zyxel-aksesspunkt-wax610d# (Powerfull Accesspoint)
+        Bilde - https://www.komplett.no/img/p/1080/1183094_1.jpg
+}
+Environmental equipment:
+{
+    UPS:
+        Kilder - https://www.newegg.com/cyberpower-cp1500pfclcd-nema-5-15r/p/N82E16842102134
+            Bilde - https://c1.neweggimages.com/ProductImageCompressAll1280/42-102-134-V02.jpg
+        Kilder - https://www.komplett.no/product/925463/datautstyr/pc-tilbehoer/ups-overspenningsvern/ups-og-ups-batteri/bluewalker-powerwalker-ups-vfi-3000-tg
+            Bilde - https://www.komplett.no/img/p/1200/925463.jpg
+    Sikringsskap:
+        Kilder - https://www.komplett.no/product/1012682/pc-nettbrett/server-tilbehoer/rackskap/toten-19-rack-floor-cabinet-18u-600x600
+            Bilde - https://www.komplett.no/img/p/800/1012682.jpg
+        Kilder - https://www.dustinhome.no/product/5011259050/komplett-10-rack-pro-for-nettverksinstallasjoner?ssel=true&ssel=true&gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc6A2dnE-NIm-y7WTPnfsNIrwp2qKLy8Di6Wa8MzGMz0CbnVDVK-L1AaAoiqEALw_wcB#
+            Bilde - https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=400/image/d200001001468932/400/320/digitus-komplett-10-rack-pro-for-nettverksinstallasjoner.jpg
+        Kilder - https://www.dustinhome.no/product/5010960152/modular-fan-package-2-fans---floor-cabinetts?ssel=true&ssel=true&gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc59WNj37-y0Dx1EY_dJLyrvMuawGwTtwe9-WNXAkxqDbMWifu3gJdAaAtiWEALw_wcB#
+            Bilde - https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=400/image/d200001002125017/400/320/toten-modular-fan-package-2-fans-floor-cabinetts.png
+    Brannslukker:
+        Kilde - https://www.obsbygg.no/sikkerhet/brannsikkerhet-og-brannsikring/2330444?v=ObsBygg-7057920832733
+            Bilde - https://www.obsbygg.no/globalassets/productimages/260358_7057920832733_.jpg?ref=C799815E25&w=640&scale=both&mode=pad&h=640&format=jpg
+}
+Services:
+{
+    Firewall & Security Software:
+    Kilder - https://www.bitdefender.com/media/html/consumer/new/2020/cl-offer-opt/?pid=60off&cid=aff|c|ir
+        Bilde - https://fordelaktig.no/media/catalog/product/cache/12/image/500x600/0dc2d03fe217f8c83829496872af24a0/b/i/bitdefendertotalsec.jpg 
+}
+
+
+48. Valutakalkulator (for mest mulig realistiske priser)
+Kilde - https://m.dnb.no/markets/valuta-og-renter/valutakalkulator
+
+49. Difference between cat versions. 
+Kilde - https://www.telco-data.com/cat5e-vs-cat6-vs-cat7-vs-cat8/
+
+50. Cisco IOS and CLI (cisco network & router setup)
+Kilde - http://danscourses.com/cisco-ios-and-cli/
+
+Nydelig video æ fant etter æ fikk koblet til databasen og register rungerte
+Kilde - https://www.youtube.com/watch?v=dXjcvIPSBr4 
+
+Ekstra div kilder: 
+https://codeshack.io/basic-login-system-nodejs-express-mysql/
+https://www.youtube.com/watch?v=46vKqPlTW2w&ab_channel=PedroTech
+https://www.youtube.com/watch?v=ZMDbhYOLKF4&ab_channel=PedroTech
+https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech
+https://www.codegrepper.com/code-examples/javascript/app.listen%28PORT%2C%28%29+%3D%3E+console.log%28%27Server+running+on+port+%24%7BPORT%7D%27%29%29%3B+not+working
+https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
+https://css-tricks.com/when-a-line-doesnt-break/
+https://www.npmjs.com/package/react-use-cart
+https://upmostly.com/tutorials/settimeout-in-react-components-using-hooks
+https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null
+https://www.codegrepper.com/code-examples/javascript/check+if+array+value+exists+in+another+array+javascript
+https://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript
+https://stackoverflow.com/questions/2304052/check-if-a-number-has-a-decimal-place-is-a-whole-number
+
+
+
+
+
