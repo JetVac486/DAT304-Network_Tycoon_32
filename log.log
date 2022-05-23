@@ -1,0 +1,12 @@
+be6a8cb was Maria Møll, 9 days ago, message: single files commit test
+a6f6c02 was Maria Møll, 9 days ago, message: hello
+d8ce7da was Mats Haugland Johansen, 4 weeks ago, message: Added an basic console, basic timer and some more design to the play page
+ee0b5a7 was Mats Haugland Johansen, 6 weeks ago, message: Added more validation on login/register inputboxes
+3276737 was Mats Haugland Johansen, 6 weeks ago, message: added bcrypt password hashing to login/register
+dbc2e82 was Mats Haugland Johansen, 6 weeks ago, message: added som links for login/register and done some prodject code cleanup
+c9a8b2e was Mats Haugland Johansen, 6 weeks ago, message: created better login funtionality
+88e2b22 was Mats Haugland Johansen, 7 weeks ago, message: added basic login and register functionality plus sqlite3 database setup
+23dd1ca was Mats Haugland Johansen, 10 weeks ago, message: removed stupid code
+a6650a7 was Mats Haugland Johansen, 2 months ago, message: Fixed navbar, updated website design and some some bug fixing
+4d844b0 was Mats Haugland Johansen, 3 months ago, message: test
+4be2859 was Mats Haugland Johansen, 3 months ago, message: Initialize project using Create React App
