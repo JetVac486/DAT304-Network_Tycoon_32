@@ -94,6 +94,8 @@ Kilde - https://stackoverflow.com/questions/65049812/how-to-call-a-function-ever
 28. Terminal 
 Kilde - https://www.youtube.com/watch?v=HVVNR96GhPk&ab_channel=NateDotJs
 Kilde - https://github.com/thisprojects/console-tutorial
+Kilde - https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3560/software/release/12-2_46_se/command/reference/cr1/intro.pdf
+Kilde - https://www.pluralsight.com/blog/it-ops/cisco-console-router-configuration
 
 29. CSS bottom Property (top er helt lik bare med top isteden for bottom)
 Kilde - https://www.w3schools.com/cssref/pr_pos_bottom.asp
@@ -230,7 +232,7 @@ Kilde - http://danscourses.com/cisco-ios-and-cli/
 51. Get rid of <Link> tag underline
 Kilde - https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 
-Ekstra div kilder: 
+Ekstra diverse kilder som ikke er aktivt brukt i koden men brukt for bedre forståelse: 
 https://codeshack.io/basic-login-system-nodejs-express-mysql/
 https://www.youtube.com/watch?v=46vKqPlTW2w&ab_channel=PedroTech
 https://www.youtube.com/watch?v=ZMDbhYOLKF4&ab_channel=PedroTech
@@ -244,6 +246,7 @@ https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-proper
 https://www.codegrepper.com/code-examples/javascript/check+if+array+value+exists+in+another+array+javascript
 https://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript
 https://stackoverflow.com/questions/2304052/check-if-a-number-has-a-decimal-place-is-a-whole-number
+https://docs.vmware.com/en/VMware-Cloud-Director-Availability/4.0/VMware-Cloud-Director-Availability-40-Admin-Guide/GUID-3051B9A2-F711-4BEE-B6BC-EBC08A57DACD.html
 
 
 
